@@ -10,8 +10,12 @@ namespace csharp_test
     {
         static void Main(string[] args)
         {
-            // comment
-            Console.WriteLine("Connect Github");
+            // variable
+            int age; // num type variable
+            age = 25; // store data in variable
+
+            // write = no extra line, writeline = extra line
+            Console.WriteLine(age); // output data
         }
     }
 }
