@@ -10,14 +10,21 @@ namespace Study5
     {
         static void Main(string[] args)
         {
-            // number type
-            int integerNum = 10; // int
-            float floatNum = 3.14f; // short decmial
-            double doubleNum = 3.14159; // long decimal
+            //// number type
+            //int integerNum = 10; // int
+            //float floatNum = 3.14f; // short decmial
+            //double doubleNum = 3.14159; // long decimal
 
-            Console.Write(integerNum);
-            Console.Write(floatNum);
-            Console.Write(doubleNum);
+            //Console.Write(integerNum);
+            //Console.Write(floatNum);
+            //Console.Write(doubleNum);
+
+            // integer types w/o decimals
+            int intValue = -100; // 4 byte size integer
+            long longValue = 1234567890L; // 8 byte integer
+
+            Console.WriteLine(intValue); // output: -100
+            Console.WriteLine(longValue); // output: 1234567890
         }
     }
 }
