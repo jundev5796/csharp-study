@@ -10,17 +10,22 @@ namespace csharp_test
     {
         static void Main(string[] args)
         {
-            // character
-            int hp = 100; // hp: 100
-            double atk = 56.7; // atk: 56.7
-            string char_name = "Lion"; // name: Lion
-            char class_type = 'S'; // class: S
+            // string
+            string greeting; // declare string variable
+            greeting = "Hello, World!"; // store value in variable
 
-            Console.WriteLine("Character");
-            Console.WriteLine("HP: "+hp); // output: 100
-            Console.WriteLine("ATK: "+atk); // output: 56.7
-            Console.WriteLine("Name: "+char_name); // output: Lion
-            Console.WriteLine("Class: "+class_type); // output: S
+            // use variable
+            Console.WriteLine(greeting); // outputL: Hello, World!
+
+            // declare variable + store value
+            int score = 100;
+            double temperature = 36.5;
+            string city = "Seoul";
+
+            // output
+            Console.WriteLine(score); // output: 100
+            Console.WriteLine(temperature); // output: 36.5
+            Console.WriteLine(city); // output: Seoul
         }
     }
 }
