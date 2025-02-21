@@ -54,13 +54,20 @@ namespace Study5
             //Console.WriteLine(highPrecision);
 
             // character type
-            char letter = 'A';
-            char symbol = '#';
-            char number = '9';
+            //char letter = 'A';
+            //char symbol = '#';
+            //char number = '9';
 
-            Console.WriteLine(letter);
-            Console.WriteLine(symbol);
-            Console.WriteLine(number);
+            //Console.WriteLine(letter);
+            //Console.WriteLine(symbol);
+            //Console.WriteLine(number);
+
+            // string type
+            string greeting = "Hello World";
+            string name = "Alice";
+
+            Console.WriteLine(greeting);
+            Console.WriteLine(name);
         }
     }
 }
