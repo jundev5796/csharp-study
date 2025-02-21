@@ -63,13 +63,20 @@ namespace Study5
             //Console.WriteLine(number);
 
             // string type
-            string greeting = "Hello World";
-            string name = "Alice";
+            //string greeting = "Hello World";
+            //string name = "Alice";
 
             //Console.WriteLine(greeting);
             //Console.WriteLine(name);
 
-            Console.WriteLine(greeting + " " + name);
+            //Console.WriteLine(greeting + " " + name);
+
+            // boolean type (either 'true' or 'false')
+            bool isRunning = true; // play
+            bool isFinished = false; // exit
+
+            Console.WriteLine(isRunning);
+            Console.WriteLine(isFinished);
         }
     }
 }
