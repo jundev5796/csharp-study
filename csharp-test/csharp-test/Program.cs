@@ -28,11 +28,15 @@ namespace csharp_test
             //Console.WriteLine(city); // output: Seoul
 
             // declare multiple variables
-            int x = 10, y = 20, z = 30; // declare x, y, z
+            //int x = 10, y = 20, z = 30; // declare x, y, z
 
-            Console.WriteLine(x);
-            Console.WriteLine(y);
-            Console.WriteLine(z);
+            //Console.WriteLine(x);
+            //Console.WriteLine(y);
+            //Console.WriteLine(z);
+
+            // declare constant variable (fixed variable)
+            const double Pi = 3.14159; // output: 3.14159
+            const int MaxScore = 100; // output: 100
         }
     }
 }
