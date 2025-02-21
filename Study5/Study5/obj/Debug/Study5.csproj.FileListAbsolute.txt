@@ -1,0 +1,7 @@
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\Study5\Study5\bin\Debug\Study5.exe.config
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\Study5\Study5\bin\Debug\Study5.exe
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\Study5\Study5\bin\Debug\Study5.pdb
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\Study5\Study5\obj\Debug\Study5.csproj.AssemblyReference.cache
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\Study5\Study5\obj\Debug\Study5.csproj.CoreCompileInputs.cache
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\Study5\Study5\obj\Debug\Study5.exe
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\Study5\Study5\obj\Debug\Study5.pdb
