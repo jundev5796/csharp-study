@@ -11,6 +11,12 @@ namespace Loading
     {
         static void Main(string[] args)
         {
+
+
+
+
+
+
             Console.WriteLine("□□□□□□□□□□");
             Thread.Sleep(2000); // 1000 = 1 sec
             Console.Clear(); // remove console
@@ -42,7 +48,13 @@ namespace Loading
             Thread.Sleep(2000); // 1000 = 1 sec
             Console.Clear(); // remove console
             Console.WriteLine("■■■■■■■■■■");
+            Console.Clear(); // remove console
             Console.WriteLine("Loading Complete!");
+
+            Console.WriteLine("스토리1");
+
+
+
         }
     }
 }
