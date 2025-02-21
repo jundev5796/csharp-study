@@ -10,16 +10,17 @@ namespace csharp_test
     {
         static void Main(string[] args)
         {
-            // literal: fixed value inside a variable
-            int number = 10; // integer
-            double pi = 3.14; // decimal
-            char letter = 'A'; // character
-            string name = "Alice"; // string
+            // character
+            int hp = 100; // hp: 100
+            double atk = 56.7; // atk: 56.7
+            string char_name = "Lion"; // name: Lion
+            char class_type = 'S'; // class: S
 
-            Console.WriteLine(number); // output: 10
-            Console.WriteLine(pi); // output: 3.14
-            Console.WriteLine(letter); // output: A
-            Console.WriteLine(name); // output: Alice
+            Console.WriteLine("Character");
+            Console.WriteLine("HP: "+hp); // output: 100
+            Console.WriteLine("ATK: "+atk); // output: 56.7
+            Console.WriteLine("Name: "+char_name); // output: Lion
+            Console.WriteLine("Class: "+class_type); // output: S
         }
     }
 }
