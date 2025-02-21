@@ -20,11 +20,20 @@ namespace Study5
             //Console.Write(doubleNum);
 
             // integer types w/o decimals
-            int intValue = -100; // 4 byte size integer
-            long longValue = 1234567890L; // 8 byte integer
+            //int intValue = -100; // 4 byte size integer
+            //long longValue = 1234567890L; // 8 byte integer
 
-            Console.WriteLine(intValue); // output: -100
-            Console.WriteLine(longValue); // output: 1234567890
+            //Console.WriteLine(intValue); // output: -100
+            //Console.WriteLine(longValue); // output: 1234567890
+
+            // integer w/ signs
+            sbyte signedByte = -50; // 1 byte size
+            short signedShort = -32000; // 2 byte size
+            int signedInt = -200000000; // 4 byte size
+
+            Console.WriteLine(signedByte);
+            Console.WriteLine(signedShort);
+            Console.WriteLine(signedInt);
         }
     }
 }
