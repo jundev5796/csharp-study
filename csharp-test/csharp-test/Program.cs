@@ -10,12 +10,16 @@ namespace csharp_test
     {
         static void Main(string[] args)
         {
-            // variable
-            int age; // num type variable
-            age = 25; // store data in variable
+            // literal: fixed value inside a variable
+            int number = 10; // integer
+            double pi = 3.14; // decimal
+            char letter = 'A'; // character
+            string name = "Alice"; // string
 
-            // write = no extra line, writeline = extra line
-            Console.WriteLine(age); // output data
+            Console.WriteLine(number); // output: 10
+            Console.WriteLine(pi); // output: 3.14
+            Console.WriteLine(letter); // output: A
+            Console.WriteLine(name); // output: Alice
         }
     }
 }
