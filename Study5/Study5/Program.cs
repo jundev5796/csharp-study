@@ -79,13 +79,26 @@ namespace Study5
             //Console.WriteLine(isFinished);
 
             // .net type
-            System.Int32 number = 123;
-            System.String text = "Hello";
-            System.Boolean flag = true;
+            //System.Int32 number = 123;
+            //System.String text = "Hello";
+            //System.Boolean flag = true;
 
-            Console.WriteLine(number);
-            Console.WriteLine(text);
-            Console.WriteLine(flag);
+            //Console.WriteLine(number);
+            //Console.WriteLine(text);
+            //Console.WriteLine(flag);
+
+            // int wrapper type
+            int number = 123;
+
+            string numberAsString = number.ToString(); // convert num to string
+
+            // bool wrapper type
+            bool flag = true;
+
+            string flagAsString = flag.ToString(); // convert bool to string
+
+            Console.WriteLine(numberAsString);
+            Console.WriteLine(flagAsString);
         }
     }
 }
