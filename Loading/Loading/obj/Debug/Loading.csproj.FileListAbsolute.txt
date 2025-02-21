@@ -1,0 +1,7 @@
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\Loading\Loading\bin\Debug\Loading.exe.config
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\Loading\Loading\bin\Debug\Loading.exe
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\Loading\Loading\bin\Debug\Loading.pdb
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\Loading\Loading\obj\Debug\Loading.csproj.AssemblyReference.cache
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\Loading\Loading\obj\Debug\Loading.csproj.CoreCompileInputs.cache
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\Loading\Loading\obj\Debug\Loading.exe
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\Loading\Loading\obj\Debug\Loading.pdb
