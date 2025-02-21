@@ -36,13 +36,22 @@ namespace Study5
             //Console.WriteLine(signedInt);
 
             // integer w/o signs
-            byte unsignedByte = 255; // 1 byte size
-            ushort unsignedShort = 65000; // 2 byte size
-            uint unsignedInt = 4000000000; // 4 byte size
+            //byte unsignedByte = 255; // 1 byte size
+            //ushort unsignedShort = 65000; // 2 byte size
+            //uint unsignedInt = 4000000000; // 4 byte size
 
-            Console.WriteLine(unsignedByte);
-            Console.WriteLine(unsignedShort);
-            Console.WriteLine(unsignedInt);
+            //Console.WriteLine(unsignedByte);
+            //Console.WriteLine(unsignedShort);
+            //Console.WriteLine(unsignedInt);
+
+            // decimal type
+            float singlePrecision = 3.14f;
+            double doublePrecision = 3.1415926535; // 8 byte
+            decimal highPrecision = 3.1414922098450924589048m; // 16 byte
+
+            Console.WriteLine(singlePrecision);
+            Console.WriteLine(doublePrecision);
+            Console.WriteLine(highPrecision);
         }
     }
 }
