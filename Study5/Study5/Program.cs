@@ -45,13 +45,22 @@ namespace Study5
             //Console.WriteLine(unsignedInt);
 
             // decimal type
-            float singlePrecision = 3.14f;
-            double doublePrecision = 3.1415926535; // 8 byte
-            decimal highPrecision = 3.1414922098450924589048m; // 16 byte
+            //float singlePrecision = 3.14f;
+            //double doublePrecision = 3.1415926535; // 8 byte
+            //decimal highPrecision = 3.1414922098450924589048m; // 16 byte
 
-            Console.WriteLine(singlePrecision);
-            Console.WriteLine(doublePrecision);
-            Console.WriteLine(highPrecision);
+            //Console.WriteLine(singlePrecision);
+            //Console.WriteLine(doublePrecision);
+            //Console.WriteLine(highPrecision);
+
+            // character type
+            char letter = 'A';
+            char symbol = '#';
+            char number = '9';
+
+            Console.WriteLine(letter);
+            Console.WriteLine(symbol);
+            Console.WriteLine(number);
         }
     }
 }
