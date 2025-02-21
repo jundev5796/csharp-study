@@ -66,8 +66,10 @@ namespace Study5
             string greeting = "Hello World";
             string name = "Alice";
 
-            Console.WriteLine(greeting);
-            Console.WriteLine(name);
+            //Console.WriteLine(greeting);
+            //Console.WriteLine(name);
+
+            Console.WriteLine(greeting + " " + name);
         }
     }
 }
