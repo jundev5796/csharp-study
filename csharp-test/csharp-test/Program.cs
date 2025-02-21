@@ -10,22 +10,29 @@ namespace csharp_test
     {
         static void Main(string[] args)
         {
-            // string
-            string greeting; // declare string variable
-            greeting = "Hello, World!"; // store value in variable
+            //// string
+            //string greeting; // declare string variable
+            //greeting = "Hello, World!"; // store value in variable
 
-            // use variable
-            Console.WriteLine(greeting); // outputL: Hello, World!
+            //// use variable
+            //Console.WriteLine(greeting); // outputL: Hello, World!
 
-            // declare variable + store value
-            int score = 100;
-            double temperature = 36.5;
-            string city = "Seoul";
+            //// declare variable + store value
+            //int score = 100;
+            //double temperature = 36.5;
+            //string city = "Seoul";
 
-            // output
-            Console.WriteLine(score); // output: 100
-            Console.WriteLine(temperature); // output: 36.5
-            Console.WriteLine(city); // output: Seoul
+            //// output
+            //Console.WriteLine(score); // output: 100
+            //Console.WriteLine(temperature); // output: 36.5
+            //Console.WriteLine(city); // output: Seoul
+
+            // declare multiple variables
+            int x = 10, y = 20, z = 30; // declare x, y, z
+
+            Console.WriteLine(x);
+            Console.WriteLine(y);
+            Console.WriteLine(z);
         }
     }
 }
