@@ -17,37 +17,37 @@ namespace Loading
 
 
 
-            Console.WriteLine("□□□□□□□□□□");
+            Console.WriteLine("Loading... □□□□□□□□□□");
             Thread.Sleep(2000); // 1000 = 1 sec
             Console.Clear(); // remove console
-            Console.WriteLine("■□□□□□□□□□");
+            Console.WriteLine("Loading... ■□□□□□□□□□");
             Thread.Sleep(2000); // 1000 = 1 sec
             Console.Clear(); // remove console
-            Console.WriteLine("■■□□□□□□□□");
+            Console.WriteLine("Loading... ■■□□□□□□□□");
             Thread.Sleep(2000); // 1000 = 1 sec
             Console.Clear(); // remove console
-            Console.WriteLine("■■■□□□□□□□");
+            Console.WriteLine("Loading... ■■■□□□□□□□");
             Thread.Sleep(2000); // 1000 = 1 sec
             Console.Clear(); // remove console
-            Console.WriteLine("■■■■□□□□□□");
+            Console.WriteLine("Loading... ■■■■□□□□□□");
             Thread.Sleep(2000); // 1000 = 1 sec
             Console.Clear(); // remove console
-            Console.WriteLine("■■■■■□□□□□");
+            Console.WriteLine("Loading... ■■■■■□□□□□");
             Thread.Sleep(2000); // 1000 = 1 sec
             Console.Clear(); // remove console
-            Console.WriteLine("■■■■■■□□□□");
+            Console.WriteLine("Loading... ■■■■■■□□□□");
             Thread.Sleep(2000); // 1000 = 1 sec
             Console.Clear(); // remove console
-            Console.WriteLine("■■■■■■■□□□");
+            Console.WriteLine("Loading... ■■■■■■■□□□");
             Thread.Sleep(2000); // 1000 = 1 sec
             Console.Clear(); // remove console
-            Console.WriteLine("■■■■■■■■□□");
+            Console.WriteLine("Loading... ■■■■■■■■□□");
             Thread.Sleep(2000); // 1000 = 1 sec
             Console.Clear(); // remove console
-            Console.WriteLine("■■■■■■■■■□");
+            Console.WriteLine("Loading... ■■■■■■■■■□");
             Thread.Sleep(2000); // 1000 = 1 sec
             Console.Clear(); // remove console
-            Console.WriteLine("■■■■■■■■■■");
+            Console.WriteLine("Loading... ■■■■■■■■■■");
             Console.Clear(); // remove console
             Console.WriteLine("Loading Complete!");
 
