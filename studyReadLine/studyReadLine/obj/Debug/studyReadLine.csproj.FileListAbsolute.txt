@@ -1,0 +1,7 @@
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\studyReadLine\studyReadLine\bin\Debug\studyReadLine.exe.config
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\studyReadLine\studyReadLine\bin\Debug\studyReadLine.exe
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\studyReadLine\studyReadLine\bin\Debug\studyReadLine.pdb
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\studyReadLine\studyReadLine\obj\Debug\studyReadLine.csproj.AssemblyReference.cache
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\studyReadLine\studyReadLine\obj\Debug\studyReadLine.csproj.CoreCompileInputs.cache
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\studyReadLine\studyReadLine\obj\Debug\studyReadLine.exe
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\studyReadLine\studyReadLine\obj\Debug\studyReadLine.pdb
