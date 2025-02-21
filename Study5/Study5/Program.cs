@@ -27,13 +27,22 @@ namespace Study5
             //Console.WriteLine(longValue); // output: 1234567890
 
             // integer w/ signs
-            sbyte signedByte = -50; // 1 byte size
-            short signedShort = -32000; // 2 byte size
-            int signedInt = -200000000; // 4 byte size
+            //sbyte signedByte = -50; // 1 byte size
+            //short signedShort = -32000; // 2 byte size
+            //int signedInt = -200000000; // 4 byte size
 
-            Console.WriteLine(signedByte);
-            Console.WriteLine(signedShort);
-            Console.WriteLine(signedInt);
+            //Console.WriteLine(signedByte);
+            //Console.WriteLine(signedShort);
+            //Console.WriteLine(signedInt);
+
+            // integer w/o signs
+            byte unsignedByte = 255; // 1 byte size
+            ushort unsignedShort = 65000; // 2 byte size
+            uint unsignedInt = 4000000000; // 4 byte size
+
+            Console.WriteLine(unsignedByte);
+            Console.WriteLine(unsignedShort);
+            Console.WriteLine(unsignedInt);
         }
     }
 }
