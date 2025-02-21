@@ -72,11 +72,20 @@ namespace Study5
             //Console.WriteLine(greeting + " " + name);
 
             // boolean type (either 'true' or 'false')
-            bool isRunning = true; // play
-            bool isFinished = false; // exit
+            //bool isRunning = true; // play
+            //bool isFinished = false; // exit
 
-            Console.WriteLine(isRunning);
-            Console.WriteLine(isFinished);
+            //Console.WriteLine(isRunning);
+            //Console.WriteLine(isFinished);
+
+            // .net type
+            System.Int32 number = 123;
+            System.String text = "Hello";
+            System.Boolean flag = true;
+
+            Console.WriteLine(number);
+            Console.WriteLine(text);
+            Console.WriteLine(flag);
         }
     }
 }
