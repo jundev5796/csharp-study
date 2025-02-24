@@ -121,6 +121,12 @@ namespace study6
             //string lastName = "Smith";
 
             //Console.WriteLine(firstName + " " + lastName); // output: Alice Smith
+
+            // assignment operator
+            int a = 10;
+            a += 5; // a = a + 5
+
+            Console.WriteLine(a); // output: 15
         }
     }
 }
