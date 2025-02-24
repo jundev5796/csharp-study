@@ -192,12 +192,24 @@ namespace study6
 
             //Console.WriteLine(str);
 
-            // operator precedence
-            int result = 10 + 2 * 5; // multiplication goes first
-            Console.WriteLine(result); // output: 20
+            //// operator precedence
+            //int result = 10 + 2 * 5; // multiplication goes first
+            //Console.WriteLine(result); // output: 20
 
-            int adjustedResult = (10 + 2) * 5; // paranthesis goes first
-            Console.WriteLine(adjustedResult); // output: 60
+            //int adjustedResult = (10 + 2) * 5; // paranthesis goes first
+            //Console.WriteLine(adjustedResult); // output: 60
+
+            // conditionals
+            // if
+            int score = 85;
+            if (score >= 90)
+            {
+                Console.WriteLine("A");
+            }
+            else
+            {
+                Console.WriteLine("90 or below");
+            }
         }
     }
 }
