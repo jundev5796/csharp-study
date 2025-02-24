@@ -122,11 +122,27 @@ namespace study6
 
             //Console.WriteLine(firstName + " " + lastName); // output: Alice Smith
 
-            // assignment operator
-            int a = 10;
-            a += 5; // a = a + 5
+            //// assignment operator
+            //int a = 10;
+            //a += 5; // a = a + 5
+            //Console.WriteLine(a);
+            //a -= 5; // a = a - 5
+            //Console.WriteLine(a);
+            //a *= 5; // a = a * 5
+            //Console.WriteLine(a);
+            //a /= 5; // a = a / 5
+            //Console.WriteLine(a);
+            //a %= 5; // a = a % 5
+            //Console.WriteLine(a); // output: 15
 
-            Console.WriteLine(a); // output: 15
+            // increment/decrement operator
+            int b = 3;
+
+            b++;
+            Console.WriteLine(b); // output: 4
+
+            --b;
+            Console.WriteLine(b); // output: 3
         }
     }
 }
