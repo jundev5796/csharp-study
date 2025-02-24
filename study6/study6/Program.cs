@@ -199,16 +199,27 @@ namespace study6
             //int adjustedResult = (10 + 2) * 5; // paranthesis goes first
             //Console.WriteLine(adjustedResult); // output: 60
 
-            // conditionals
-            // if
-            int score = 85;
-            if (score >= 90)
+            //// conditionals
+            //// if
+            //int score = 85;
+            //if (score >= 90)
+            //{
+            //    Console.WriteLine("A");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("90 or below");
+            //}
+
+            // else
+            int number = 10;
+            if (number > 15)
             {
-                Console.WriteLine("A");
+                Console.WriteLine("15 or above");
             }
             else
             {
-                Console.WriteLine("90 or below");
+                Console.WriteLine("15 or below");
             }
         }
     }
