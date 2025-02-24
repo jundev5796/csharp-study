@@ -135,6 +135,35 @@ namespace Assignment2
             }
 
             Console.WriteLine($"Max Value: " + max_value);
+            Console.Write("\n");
+
+            // Problem #5
+            string grade = default;
+            Console.Write("What is your score? ");
+            int score = int.Parse(Console.ReadLine());
+
+            if (score >= 90)
+            {
+                grade = "A";
+            }
+            else if (score >= 80 && score <= 89)
+            {
+                grade = "B";
+            }
+            else if (score >= 70 && score <= 79)
+            {
+                grade = "C";
+            }
+            else if (score >= 60 && score <= 69)
+            {
+                grade = "B";
+            }
+            else if (score < 60)
+            {
+                grade = "F";
+            }
+
+            Console.WriteLine($"Grade: " + grade);
         }
     }
 }
