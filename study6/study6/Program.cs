@@ -39,20 +39,27 @@ namespace study6
             //Console.WriteLine($"bool default: {defaultBool}");
 
             // operator
-            int a = 5, b = 3;
-            int plus = a + b; // add
-            int minus = a - b; // subtract
-            int mult = a * b; // multiply
-            int div = a / b; // divide
-            int rem = a % b; // remainder
-            bool isEqual = (a == b);
+            //int a = 5, b = 3;
+            //int plus = a + b; // add
+            //int minus = a - b; // subtract
+            //int mult = a * b; // multiply
+            //int div = a / b; // divide
+            //int rem = a % b; // remainder
+            //bool isEqual = (a == b);
 
-            Console.WriteLine($"Sum: {plus}"); // output: 8
-            Console.WriteLine($"Sum: {minus}"); // output: 2
-            Console.WriteLine($"Sum: {mult}"); // output: 15
-            Console.WriteLine($"Sum: {div}"); // output: 1
-            Console.WriteLine($"Sum: {rem}"); // output: 2
-            Console.WriteLine($"Is a and b equal? {isEqual}"); // output: False
+            //Console.WriteLine($"Sum: {plus}"); // output: 8
+            //Console.WriteLine($"Sum: {minus}"); // output: 2
+            //Console.WriteLine($"Sum: {mult}"); // output: 15
+            //Console.WriteLine($"Sum: {div}"); // output: 1
+            //Console.WriteLine($"Sum: {rem}"); // output: 2
+            //Console.WriteLine($"Is a and b equal? {isEqual}"); // output: False
+
+            // checking odd/even
+            int num = 7;
+            int sum = 0;
+
+            sum = num % 2;
+            Console.WriteLine("Odd or Even: " + sum);
         }
     }
 }
