@@ -62,14 +62,29 @@ namespace study6
             //Console.WriteLine("Odd or Even: " + sum);
 
             // relational operator
-            bool isEqual = false;
+            //bool isEqual = false;
 
-            int a = 5;
-            int b = 2;
+            //int a = 5;
+            //int b = 2;
 
-            isEqual = (a == b);
+            //isEqual = (a == b);
 
-            Console.WriteLine("Same? " + isEqual);
+            //Console.WriteLine("Same? " + isEqual);
+
+            // unary operator
+            int number = 5;
+            Console.WriteLine(+number); // positive: 5
+            Console.WriteLine(-number); // negative: -5
+
+            // !
+            bool flag = true;
+            Console.WriteLine(!flag); // reverse: False
+
+            // ~ -> -(x + 1)
+            int num = 10;
+            int result = ~num; // -(10 + 1) = -11
+            Console.WriteLine("Original Number: " + num);
+            Console.WriteLine("With ~: " + result);
         }
     }
 }
