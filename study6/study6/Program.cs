@@ -135,17 +135,26 @@ namespace study6
             //a %= 5; // a = a % 5
             //Console.WriteLine(a); // output: 15
 
-            // increment/decrement operator
-            int b = 3;
+            //// increment/decrement operator
+            //int b = 3;
 
-            b++; // calculates on the next line
-            Console.WriteLine(b); // output: 4
+            //b++; // calculates on the next line
+            //Console.WriteLine(b); // output: 4
 
-            --b; // calculates on this line
-            Console.WriteLine(b); // output: 3
+            //--b; // calculates on this line
+            //Console.WriteLine(b); // output: 3
 
-            Console.WriteLine("b: " + (b++));
+            //Console.WriteLine("b: " + (b++));
 
+            // relational operator (== equal, != not equal)
+            int x = 5, y = 10;
+
+            Console.WriteLine(x == y); // false
+            Console.WriteLine(x != y); // true
+            Console.WriteLine(x < y); // true
+            Console.WriteLine(x > y); // false
+            Console.WriteLine(x <= y); // true
+            Console.WriteLine(x >= y); // false
         }
     }
 }
