@@ -211,15 +211,35 @@ namespace study6
             //    Console.WriteLine("90 or below");
             //}
 
-            // else
-            int number = 10;
-            if (number > 15)
+            //// else
+            //int number = 10;
+            //if (number > 15)
+            //{
+            //    Console.WriteLine("15 or above");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("15 or below");
+            //}
+
+            // else if
+            int score = 75;
+
+            if (score >= 90)
             {
-                Console.WriteLine("15 or above");
+                Console.WriteLine("A");
+            }
+            else if (score >= 80)
+            {
+                Console.WriteLine("B");
+            }
+            else if (score >= 70)
+            {
+                Console.WriteLine("C");
             }
             else
             {
-                Console.WriteLine("15 or below");
+                Console.WriteLine("F");
             }
         }
     }
