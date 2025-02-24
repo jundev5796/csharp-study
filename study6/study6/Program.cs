@@ -30,13 +30,29 @@ namespace study6
             //Console.WriteLine($"name: {name}, age: {age}, student_check: {isStudent}");
 
             // default (not used a lot)
-            int defaultInt = default;
-            string defaultString = default;
-            bool defaultBool = default;
+            //int defaultInt = default;
+            //string defaultString = default;
+            //bool defaultBool = default;
 
-            Console.WriteLine($"int default: {defaultInt}");
-            Console.WriteLine($"string default: {defaultString}");
-            Console.WriteLine($"bool default: {defaultBool}");
+            //Console.WriteLine($"int default: {defaultInt}");
+            //Console.WriteLine($"string default: {defaultString}");
+            //Console.WriteLine($"bool default: {defaultBool}");
+
+            // operator
+            int a = 5, b = 3;
+            int plus = a + b; // add
+            int minus = a - b; // subtract
+            int mult = a * b; // multiply
+            int div = a / b; // divide
+            int rem = a % b; // remainder
+            bool isEqual = (a == b);
+
+            Console.WriteLine($"Sum: {plus}"); // output: 8
+            Console.WriteLine($"Sum: {minus}"); // output: 2
+            Console.WriteLine($"Sum: {mult}"); // output: 15
+            Console.WriteLine($"Sum: {div}"); // output: 1
+            Console.WriteLine($"Sum: {rem}"); // output: 2
+            Console.WriteLine($"Is a and b equal? {isEqual}"); // output: False
         }
     }
 }
