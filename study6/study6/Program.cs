@@ -55,11 +55,21 @@ namespace study6
             //Console.WriteLine($"Is a and b equal? {isEqual}"); // output: False
 
             // checking odd/even
-            int num = 7;
-            int sum = 0;
+            //int num = 7;
+            //int sum = 0;
 
-            sum = num % 2;
-            Console.WriteLine("Odd or Even: " + sum);
+            //sum = num % 2;
+            //Console.WriteLine("Odd or Even: " + sum);
+
+            // relational operator
+            bool isEqual = false;
+
+            int a = 5;
+            int b = 2;
+
+            isEqual = (a == b);
+
+            Console.WriteLine("Same? " + isEqual);
         }
     }
 }
