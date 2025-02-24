@@ -10,7 +10,7 @@ namespace study6
     {
         static void Main(string[] args)
         {
-            // binary to integer
+            // binary to integer (not used a lot)
             //Console.Write("Input binary: ");
             //string binaryInput = Console.ReadLine(); // input as string
             //int decimalValue = Convert.ToInt32(binaryInput, 2); // 2 -> 10
@@ -23,11 +23,20 @@ namespace study6
             //Console.WriteLine($"Convert back to binary: {binaryInput}");
 
             // var
-            var name = "Alice";
-            var age = 25;
-            var isStudent = true;
+            //var name = "Alice";
+            //var age = 25;
+            //var isStudent = true;
 
-            Console.WriteLine($"name: {name}, age: {age}, student_check: {isStudent}");
+            //Console.WriteLine($"name: {name}, age: {age}, student_check: {isStudent}");
+
+            // default (not used a lot)
+            int defaultInt = default;
+            string defaultString = default;
+            bool defaultBool = default;
+
+            Console.WriteLine($"int default: {defaultInt}");
+            Console.WriteLine($"string default: {defaultString}");
+            Console.WriteLine($"bool default: {defaultBool}");
         }
     }
 }
