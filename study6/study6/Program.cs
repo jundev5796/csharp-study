@@ -11,16 +11,23 @@ namespace study6
         static void Main(string[] args)
         {
             // binary to integer
-            Console.Write("Input binary: ");
-            string binaryInput = Console.ReadLine(); // input as string
-            int decimalValue = Convert.ToInt32(binaryInput, 2); // 2 -> 10
+            //Console.Write("Input binary: ");
+            //string binaryInput = Console.ReadLine(); // input as string
+            //int decimalValue = Convert.ToInt32(binaryInput, 2); // 2 -> 10
 
-            // integer to binary
-            string binaryOutput = Convert.ToString(decimalValue, 2); // 10 -> 2
+            //// integer to binary
+            //string binaryOutput = Convert.ToString(decimalValue, 2); // 10 -> 2
 
-            Console.WriteLine($"Enter binary: {binaryInput}");
-            Console.WriteLine($"Convert to decimal: {decimalValue}");
-            Console.WriteLine($"Convert back to binary: {binaryInput}");
+            //Console.WriteLine($"Enter binary: {binaryInput}");
+            //Console.WriteLine($"Convert to decimal: {decimalValue}");
+            //Console.WriteLine($"Convert back to binary: {binaryInput}");
+
+            // var
+            var name = "Alice";
+            var age = 25;
+            var isStudent = true;
+
+            Console.WriteLine($"name: {name}, age: {age}, student_check: {isStudent}");
         }
     }
 }
