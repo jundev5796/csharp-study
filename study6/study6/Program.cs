@@ -164,13 +164,19 @@ namespace study6
             //Console.WriteLine(!a); // false
 
             // bitwise operator
-            int x = 5; // 0101
-            int y = 3; // 0011
+            //int x = 5; // 0101
+            //int y = 3; // 0011
 
-            Console.WriteLine(x & y); // AND: 1 (0001) (multiply digit)
-            Console.WriteLine(x | y); // OR: 7 (0111) (add digit)
-            Console.WriteLine(x ^ y); // XOR: 6 (0110) (add digit, but similar digits will become 0)
-            Console.WriteLine(~x); // NOT: -6
+            //Console.WriteLine(x & y); // AND: 1 (0001) (multiply digit)
+            //Console.WriteLine(x | y); // OR: 7 (0111) (add digit)
+            //Console.WriteLine(x ^ y); // XOR: 6 (0110) (add digit, but similar digits will become 0)
+            //Console.WriteLine(~x); // NOT: -6
+
+            // shift operator (move bit)
+            int value = 4; // 0100
+
+            Console.WriteLine(value << 1); // move left: 8 (1000)
+            Console.WriteLine(value >> 1); // move right: 2 (0010)
         }
     }
 }
