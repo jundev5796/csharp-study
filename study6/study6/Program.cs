@@ -172,11 +172,25 @@ namespace study6
             //Console.WriteLine(x ^ y); // XOR: 6 (0110) (add digit, but similar digits will become 0)
             //Console.WriteLine(~x); // NOT: -6
 
-            // shift operator (move bit)
-            int value = 4; // 0100
+            //// shift operator (move bit)
+            //int value = 4; // 0100
 
-            Console.WriteLine(value << 1); // move left: 8 (1000)
-            Console.WriteLine(value >> 1); // move right: 2 (0010)
+            //Console.WriteLine(value << 1); // move left: 8 (1000)
+            //Console.WriteLine(value >> 1); // move right: 2 (0010)
+
+            // tertiary operator
+            int a = 10, b = 20;
+            int max = (a > b) ? a : b; // tertiary operator
+
+            Console.WriteLine(max); // output: 20
+
+            // example
+            int key = 1;
+            string str;
+
+            str = (key == 1) ? "Open" : "Close";
+
+            Console.WriteLine(str);
         }
     }
 }
