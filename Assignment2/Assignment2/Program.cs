@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Schema;
+using System.Xml.XPath;
 
 namespace Assignment2
 {
@@ -164,6 +165,46 @@ namespace Assignment2
             }
 
             Console.WriteLine($"Grade: " + grade);
+            Console.Write("\n");
+
+            // Problem #6
+            Console.Write("1st Number: ");
+            int x = int.Parse(Console.ReadLine());
+
+            Console.Write("2nd Number: ");
+            int y = int.Parse(Console.ReadLine());
+
+            Console.Write("Operator: ");
+            string sign = Console.ReadLine();
+
+            int result = 0;
+
+            if (sign == "+")
+            {
+                result = x + y;
+            }
+            else if (sign == "-")
+            {
+                result = x - y;
+            }
+            else if (sign == "*")
+            {
+                result = x * y;
+            }
+            else if (sign == "/")
+            {
+                if (y == 0)
+                {
+                    Console.WriteLine("Cannot divide by 0.");
+                }
+                result = x / y;
+            }
+            else
+            {
+                Console.WriteLine("Invalid Input");
+            }
+
+            Console.WriteLine($"Result: " + result);
         }
     }
 }
