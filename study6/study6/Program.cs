@@ -108,13 +108,19 @@ namespace study6
             //Console.WriteLine("평균 : " + average);
 
             // arithmetic operator
-            int a = 10, b = 3;
+            //int a = 10, b = 3;
 
-            Console.WriteLine(a + b); // add: 13
-            Console.WriteLine(a - b); // subtract: 7
-            Console.WriteLine(a * b); // multiply: 30
-            Console.WriteLine(a / b); // divide: 3
-            Console.WriteLine(a % b); // remainder: 1
+            //Console.WriteLine(a + b); // add: 13
+            //Console.WriteLine(a - b); // subtract: 7
+            //Console.WriteLine(a * b); // multiply: 30
+            //Console.WriteLine(a / b); // divide: 3
+            //Console.WriteLine(a % b); // remainder: 1
+
+            //// string concatenation operator
+            //string firstName = "Alice";
+            //string lastName = "Smith";
+
+            //Console.WriteLine(firstName + " " + lastName); // output: Alice Smith
         }
     }
 }
