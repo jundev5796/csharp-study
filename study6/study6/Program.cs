@@ -87,10 +87,34 @@ namespace study6
             //Console.WriteLine("With ~: " + result);
 
             // conversion operator
-            double pi = 3.14;
-            int integerPi = (int)pi; // convert double to int
+            //double pi = 3.14;
+            //int integerPi = (int)pi; // convert double to int
 
-            Console.WriteLine(integerPi); // output: 3
+            //Console.WriteLine(integerPi); // output: 3
+
+            //// example
+            //int iKor = 90;
+            //int iEng = 75;
+            //int iMath = 58;
+
+            //int sum = 0;
+            //float average = 0.0f;
+
+            //sum = iKor + iEng + iMath;
+
+            //average = (float)sum / 3;  //평균
+
+            //Console.WriteLine("총점 : " + sum);
+            //Console.WriteLine("평균 : " + average);
+
+            // arithmetic operator
+            int a = 10, b = 3;
+
+            Console.WriteLine(a + b); // add: 13
+            Console.WriteLine(a - b); // subtract: 7
+            Console.WriteLine(a * b); // multiply: 30
+            Console.WriteLine(a / b); // divide: 3
+            Console.WriteLine(a % b); // remainder: 1
         }
     }
 }
