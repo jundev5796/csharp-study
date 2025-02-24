@@ -146,15 +146,22 @@ namespace study6
 
             //Console.WriteLine("b: " + (b++));
 
-            // relational operator (== equal, != not equal)
-            int x = 5, y = 10;
+            //// relational operator (== equal, != not equal)
+            //int x = 5, y = 10;
 
-            Console.WriteLine(x == y); // false
-            Console.WriteLine(x != y); // true
-            Console.WriteLine(x < y); // true
-            Console.WriteLine(x > y); // false
-            Console.WriteLine(x <= y); // true
-            Console.WriteLine(x >= y); // false
+            //Console.WriteLine(x == y); // false
+            //Console.WriteLine(x != y); // true
+            //Console.WriteLine(x < y); // true
+            //Console.WriteLine(x > y); // false
+            //Console.WriteLine(x <= y); // true
+            //Console.WriteLine(x >= y); // false
+
+            // logical operator (&&, ||, !)
+            bool a = true, b = false;
+
+            Console.WriteLine(a && b); // false
+            Console.WriteLine(a || b); // true
+            Console.WriteLine(!a); // false
         }
     }
 }
