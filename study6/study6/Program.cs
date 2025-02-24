@@ -222,25 +222,25 @@ namespace study6
             //    Console.WriteLine("15 or below");
             //}
 
-            // else if
-            int score = 75;
+            //// else if
+            //int score = 75;
 
-            if (score >= 90)
-            {
-                Console.WriteLine("A");
-            }
-            else if (score >= 80)
-            {
-                Console.WriteLine("B");
-            }
-            else if (score >= 70)
-            {
-                Console.WriteLine("C");
-            }
-            else
-            {
-                Console.WriteLine("F");
-            }
+            //if (score >= 90)
+            //{
+            //    Console.WriteLine("A");
+            //}
+            //else if (score >= 80)
+            //{
+            //    Console.WriteLine("B");
+            //}
+            //else if (score >= 70)
+            //{
+            //    Console.WriteLine("C");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("F");
+            //}
         }
     }
 }
