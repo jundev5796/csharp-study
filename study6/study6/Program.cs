@@ -178,19 +178,26 @@ namespace study6
             //Console.WriteLine(value << 1); // move left: 8 (1000)
             //Console.WriteLine(value >> 1); // move right: 2 (0010)
 
-            // tertiary operator
-            int a = 10, b = 20;
-            int max = (a > b) ? a : b; // tertiary operator
+            //// tertiary operator
+            //int a = 10, b = 20;
+            //int max = (a > b) ? a : b; // tertiary operator
 
-            Console.WriteLine(max); // output: 20
+            //Console.WriteLine(max); // output: 20
 
-            // example
-            int key = 1;
-            string str;
+            //// example
+            //int key = 1;
+            //string str;
 
-            str = (key == 1) ? "Open" : "Close";
+            //str = (key == 1) ? "Open" : "Close";
 
-            Console.WriteLine(str);
+            //Console.WriteLine(str);
+
+            // operator precedence
+            int result = 10 + 2 * 5; // multiplication goes first
+            Console.WriteLine(result); // output: 20
+
+            int adjustedResult = (10 + 2) * 5; // paranthesis goes first
+            Console.WriteLine(adjustedResult); // output: 60
         }
     }
 }
