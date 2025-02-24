@@ -156,12 +156,21 @@ namespace study6
             //Console.WriteLine(x <= y); // true
             //Console.WriteLine(x >= y); // false
 
-            // logical operator (&&, ||, !)
-            bool a = true, b = false;
+            //// logical operator (&&, ||, !)
+            //bool a = true, b = false;
 
-            Console.WriteLine(a && b); // false
-            Console.WriteLine(a || b); // true
-            Console.WriteLine(!a); // false
+            //Console.WriteLine(a && b); // false
+            //Console.WriteLine(a || b); // true
+            //Console.WriteLine(!a); // false
+
+            // bitwise operator
+            int x = 5; // 0101
+            int y = 3; // 0011
+
+            Console.WriteLine(x & y); // AND: 1 (0001) (multiply digit)
+            Console.WriteLine(x | y); // OR: 7 (0111) (add digit)
+            Console.WriteLine(x ^ y); // XOR: 6 (0110) (add digit, but similar digits will become 0)
+            Console.WriteLine(~x); // NOT: -6
         }
     }
 }
