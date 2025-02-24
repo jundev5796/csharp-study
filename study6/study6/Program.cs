@@ -138,11 +138,14 @@ namespace study6
             // increment/decrement operator
             int b = 3;
 
-            b++;
+            b++; // calculates on the next line
             Console.WriteLine(b); // output: 4
 
-            --b;
+            --b; // calculates on this line
             Console.WriteLine(b); // output: 3
+
+            Console.WriteLine("b: " + (b++));
+
         }
     }
 }
