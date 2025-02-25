@@ -40,11 +40,21 @@ namespace day4_part1
             //        break;
             //}
 
-            // for loop
-            for (int i = 1; i <= 5; i++)
+            //// for loop
+            //for (int i = 1; i <= 5; i++)
+            //{
+            //    Console.WriteLine($"Number: {i}");
+            //}
+
+            // infinite loop
+            int count = 0;
+            while (true)
             {
-                Console.WriteLine($"Number: {i}");
+                Console.WriteLine("Infinite Loop");
+                count++;
+                if (count == 3) break; // break loop
             }
+
         }
     }
 }
