@@ -95,15 +95,24 @@ namespace day4_part1
             //    Console.WriteLine($"Random number between 0 ~ 10: {randomNum}");
             //}
 
-            // random (example)
-            Random rand = new Random();
+            //// random (example)
+            //Random rand = new Random();
 
-            int randomInRange = 0;
-            for (int i = 0; i < 100; i++)
-            {
-                randomInRange = rand.Next(5, 15);
-                Console.WriteLine("5 ~ 14: " + randomInRange);
-            }
+            //int randomInRange = 0;
+            //for (int i = 0; i < 100; i++)
+            //{
+            //    randomInRange = rand.Next(5, 15);
+            //    Console.WriteLine("5 ~ 14: " + randomInRange);
+            //}
+
+            //// do-while loop (not used a lot)
+            //int x = 5;
+
+            //do
+            //{
+            //    Console.WriteLine("run at least once");
+            //    x--;
+            //} while (x > 0);
         }
     }
 }
