@@ -122,10 +122,21 @@ namespace day4_part1
             //}
 
             // continue
-            for (int i = 1; i <= 10; i++)
+            //for (int i = 1; i <= 10; i++)
+            //{
+            //    if (i % 2 == 0) continue; // check for even num
+            //    Console.WriteLine(i); // odd num
+            //}
+
+            // goto (not used a lot, usually server-side)
+            int n = 1;
+            start:
+            if (n <= 5)
             {
-                if (i % 2 == 0) continue; // check for even num
-                Console.WriteLine(i); // odd num
+                Console.WriteLine(n);
+                n++;
+
+                goto start; // go back to label
             }
         }
     }
