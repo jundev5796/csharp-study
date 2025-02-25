@@ -115,10 +115,17 @@ namespace day4_part1
             //} while (x > 0);
 
             // break
+            //for (int i = 1; i <= 10; i++)
+            //{
+            //    if (i == 5) break;
+            //    Console.WriteLine(i);
+            //}
+
+            // continue
             for (int i = 1; i <= 10; i++)
             {
-                if (i == 5) break;
-                Console.WriteLine(i);
+                if (i % 2 == 0) continue; // check for even num
+                Console.WriteLine(i); // odd num
             }
         }
     }
