@@ -113,6 +113,13 @@ namespace day4_part1
             //    Console.WriteLine("run at least once");
             //    x--;
             //} while (x > 0);
+
+            // break
+            for (int i = 1; i <= 10; i++)
+            {
+                if (i == 5) break;
+                Console.WriteLine(i);
+            }
         }
     }
 }
