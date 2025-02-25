@@ -57,19 +57,53 @@ namespace day4_part1
             //}
 
             // while loop
-            int n = 1;
-            while (n <= 5)
-            {
-                Console.WriteLine($"Number: {n}");
-                n++;
+            //int n = 1;
+            //while (n <= 5)
+            //{
+            //    Console.WriteLine($"Number: {n}");
+            //    n++;
 
-                if (n == 3)
-                {
-                    Console.WriteLine("Escape at 3");
-                    break;
-                }
+            //    if (n == 3)
+            //    {
+            //        Console.WriteLine("Escape at 3");
+            //        break;
+            //    }
+            //}
+            //Console.WriteLine($"Count: {n}");
+
+            //// random
+            //Random rand = new Random(); // random object
+
+            //int randomNum = rand.Next(0, 11);
+            //Console.WriteLine($"Random number between 0 ~ 10: {randomNum}");
+
+            //// random (for loop w/ int)
+            //Random rand = new Random(); // random object
+
+            //for (int i = 0; i < 10; i++)
+            //{
+            //    int randomNum = rand.Next(0, 11);
+            //    Console.WriteLine($"Random number between 0 ~ 10: {randomNum}");
+            //}
+
+            //// random (for loop w/ float)
+            //Random rand = new Random(); // random object
+
+            //for (int i = 0; i < 10; i++)
+            //{
+            //    int randomNum = rand.Next(0, 11);
+            //    Console.WriteLine($"Random number between 0 ~ 10: {randomNum}");
+            //}
+
+            // random (example)
+            Random rand = new Random();
+
+            int randomInRange = 0;
+            for (int i = 0; i < 100; i++)
+            {
+                randomInRange = rand.Next(5, 15);
+                Console.WriteLine("5 ~ 14: " + randomInRange);
             }
-            Console.WriteLine($"Count: {n}");
         }
     }
 }
