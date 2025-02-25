@@ -41,11 +41,21 @@ namespace day4_assignment
             //        break;
             //}
 
-            // Problem #2
-            for (int i = 0; i <= 9; i++)
+            //// Problem #2
+            //for (int i = 0; i <= 9; i++)
+            //{
+            //    Console.WriteLine($"Number: {i}");
+            //}
+
+            // Problem #3
+            int sum = 0;
+
+            for (int i = 1; i <= 10; i++)
             {
-                Console.WriteLine($"Number: {i}");
+                sum += i;
             }
+
+            Console.WriteLine($"Total: {sum}");
         }
     }
 }
