@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace day4_assignment
@@ -47,15 +48,45 @@ namespace day4_assignment
             //    Console.WriteLine($"Number: {i}");
             //}
 
-            // Problem #3
-            int sum = 0;
+            //// Problem #3
+            //int sum = 0;
 
-            for (int i = 1; i <= 10; i++)
+            //for (int i = 1; i <= 10; i++)
+            //{
+            //    sum += i;
+            //}
+
+            //Console.WriteLine($"Total: {sum}");
+
+            // Problem #4
+
+            // 대장장이 키우기
+            // 도끼등급 SSS 10%
+            // 도끼등급 SS 40%
+            // 도끼등급 S 50%
+
+            Random rand = new Random();
+
+            int num = 0;
+
+            for (int i = 0; i < 20; i++)
             {
-                sum += i;
-            }
+                num = rand.Next(1, 101); // 1~100
 
-            Console.WriteLine($"Total: {sum}");
+                if (num >= 1 && num <= 10)
+                {
+                    Console.WriteLine("도끼등급 SSS");
+                }
+                else if (num >= 11 && num <= 40)
+                {
+                    Console.WriteLine("도끼등급 SS");
+                }
+                else
+                {
+                    Console.WriteLine("도끼등급 S");
+                }
+                Thread.Sleep(500); // 0.5 sec
+            }
         }
     }
 }
