@@ -1,0 +1,7 @@
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\day4-대장장이키우기\day4-대장장이키우기\bin\Debug\day4-대장장이키우기.exe.config
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\day4-대장장이키우기\day4-대장장이키우기\bin\Debug\day4-대장장이키우기.exe
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\day4-대장장이키우기\day4-대장장이키우기\bin\Debug\day4-대장장이키우기.pdb
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\day4-대장장이키우기\day4-대장장이키우기\obj\Debug\day4-대장장이키우기.csproj.AssemblyReference.cache
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\day4-대장장이키우기\day4-대장장이키우기\obj\Debug\day4-대장장이키우기.csproj.CoreCompileInputs.cache
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\day4-대장장이키우기\day4-대장장이키우기\obj\Debug\day4-대장장이키우기.exe
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\day4-대장장이키우기\day4-대장장이키우기\obj\Debug\day4-대장장이키우기.pdb

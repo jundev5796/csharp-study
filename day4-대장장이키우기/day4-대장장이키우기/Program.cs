@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.Design;
+using System.Diagnostics.Eventing.Reader;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -12,7 +13,7 @@ namespace day4_대장장이키우기
     {
         static void Main(string[] args)
         {
-            // random
+            //랜덤
             Random rand = new Random();
 
             Console.WriteLine(" 대장장이 키우기 ");
@@ -23,17 +24,18 @@ namespace day4_대장장이키우기
 
             Thread.Sleep(500);
 
-            // infinite loop
+
+            //무한반복
             while (true)
             {
-                Console.Clear(); // Erase Screen
+                Console.Clear(); //화면지우기 
                 Console.WriteLine("1. 나무캐기 ");
                 Console.WriteLine("2. 장비뽑기 ");
                 Console.WriteLine("3. 나가기 ");
                 Console.Write("입력 : ");
-                input = int.Parse(Console.ReadLine()); // input에 키로 눌린 숫자 담기
+                input = int.Parse(Console.ReadLine()); //input에 키로 눌린 숫자 담기
 
-                if (input == 1)
+                if (input == 1) //나무캐기화면
                 {
                     while (true)
                     {
@@ -49,20 +51,23 @@ namespace day4_대장장이키우기
                             Console.WriteLine("뒤로가기");
                             break;
                         }
+
                     }
                 }
                 else if (input == 2)
                 {
-                    // 장비뽑기
-                    if (pmoney >= 1000)
+                    //장비뽑기
+                    if (pmoney >= 1000) //돈이 있는지 확인후 뽑기
                     {
                         pmoney -= 1000;
 
+
+                        //20번 뽑기
                         for (int i = 1; i <= 20; i++)
                         {
                             rnd = rand.Next(1, 101);
 
-                            if (rnd == 1)
+                            if (rnd == 1) // 1퍼
                             {
                                 Console.WriteLine("도끼등급 SSS");
                             }
@@ -104,3 +109,4 @@ namespace day4_대장장이키우기
         }
     }
 }
+
