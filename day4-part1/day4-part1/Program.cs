@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace day4_part1
@@ -47,14 +48,28 @@ namespace day4_part1
             //}
 
             // infinite loop
-            int count = 0;
-            while (true)
-            {
-                Console.WriteLine("Infinite Loop");
-                count++;
-                if (count == 3) break; // break loop
-            }
+            //int count = 0;
+            //while (true)
+            //{
+            //    Console.WriteLine("Infinite Loop");
+            //    count++;
+            //    if (count == 3) break; // break loop
+            //}
 
+            // while loop
+            int n = 1;
+            while (n <= 5)
+            {
+                Console.WriteLine($"Number: {n}");
+                n++;
+
+                if (n == 3)
+                {
+                    Console.WriteLine("Escape at 3");
+                    break;
+                }
+            }
+            Console.WriteLine($"Count: {n}");
         }
     }
 }
