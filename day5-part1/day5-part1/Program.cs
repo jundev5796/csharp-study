@@ -42,17 +42,30 @@ namespace day5_part1
             //    Console.WriteLine(fruits[i]);
             //}
 
-            // 1-layer array
-            int[] scores = new int[3];
+            //// 1-dimensional array
+            //int[] scores = new int[3];
 
-            scores[0] = 90;
-            scores[1] = 85;
-            scores[2] = 88;
+            //scores[0] = 90;
+            //scores[1] = 85;
+            //scores[2] = 88;
 
-            for (int i = 0; i < scores.Length; i++)
-            {
-                Console.WriteLine($"Score {i + 1}: {scores[i]}");
-            }
+            //for (int i = 0; i < scores.Length; i++)
+            //{
+            //    Console.WriteLine($"Score {i + 1}: {scores[i]}");
+            //}
+
+            // setting decimal points
+            double value = 123.456789;
+
+            Console.WriteLine(value.ToString("F2"));
+            Console.WriteLine($"2 Decimal Points: {value:F2}");
+            Console.WriteLine(String.Format("2 Decimal Points: {0:F2}", value));
+
+            Console.WriteLine(value.ToString("F0"));
+
+            double value2 = 123124124.12323;
+
+            Console.WriteLine(value2.ToString("N2"));
         }
     }
 }
