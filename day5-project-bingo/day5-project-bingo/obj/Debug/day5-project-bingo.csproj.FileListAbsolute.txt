@@ -1,0 +1,7 @@
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\day5-project-bingo\day5-project-bingo\bin\Debug\day5-project-bingo.exe.config
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\day5-project-bingo\day5-project-bingo\bin\Debug\day5-project-bingo.exe
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\day5-project-bingo\day5-project-bingo\bin\Debug\day5-project-bingo.pdb
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\day5-project-bingo\day5-project-bingo\obj\Debug\day5-project-bingo.csproj.AssemblyReference.cache
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\day5-project-bingo\day5-project-bingo\obj\Debug\day5-project-bingo.csproj.CoreCompileInputs.cache
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\day5-project-bingo\day5-project-bingo\obj\Debug\day5-project-bingo.exe
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\day5-project-bingo\day5-project-bingo\obj\Debug\day5-project-bingo.pdb
