@@ -42,7 +42,17 @@ namespace day5_part1
             //    Console.WriteLine(fruits[i]);
             //}
 
+            // 1-layer array
+            int[] scores = new int[3];
 
+            scores[0] = 90;
+            scores[1] = 85;
+            scores[2] = 88;
+
+            for (int i = 0; i < scores.Length; i++)
+            {
+                Console.WriteLine($"Score {i + 1}: {scores[i]}");
+            }
         }
     }
 }
