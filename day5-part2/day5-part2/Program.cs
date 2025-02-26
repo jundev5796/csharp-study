@@ -48,6 +48,8 @@ namespace day5_part2
             Console.WriteLine("Enter Character ATK: ");
             atk = int.Parse(Console.ReadLine());
 
+            Loading();
+
             // atk
             baseAttack = BaseAttack();
 
