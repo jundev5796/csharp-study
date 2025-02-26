@@ -34,13 +34,15 @@ namespace day5_part1
             //    Console.WriteLine(numbers[i]);
             //}
 
-            // string array
-            string[] fruits = { "Apple", "Banana", "Orange" };
+            //// string array
+            //string[] fruits = { "Apple", "Banana", "Orange" };
 
-            for (int i = 0; i < 3; i++)
-            {
-                Console.WriteLine(fruits[i]);
-            }
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    Console.WriteLine(fruits[i]);
+            //}
+
+
         }
     }
 }
