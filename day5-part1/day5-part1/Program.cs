@@ -123,10 +123,18 @@ namespace day5_part1
             //    Console.WriteLine();
             //}
 
-            // array w/ var
-            Console.WriteLine("\n=== var keyword ===");
-            var numbers = new[] { 1, 2, 3, 4, 5 };
-            Console.WriteLine($"Array Type: {numbers.GetType()}");
+            //// array w/ var
+            //Console.WriteLine("\n=== var keyword ===");
+            //var numbers = new[] { 1, 2, 3, 4, 5 };
+            //Console.WriteLine($"Array Type: {numbers.GetType()}");
+
+            // foreach
+            string[] fruits = { "Apple", "Banana", "Cherry" };
+
+            foreach (string fruit in fruits)
+            {
+                Console.WriteLine(fruit);
+            }
         }
     }
 }
