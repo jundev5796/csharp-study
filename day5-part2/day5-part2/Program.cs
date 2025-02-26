@@ -27,19 +27,31 @@ namespace day5_part2
             Thread.Sleep(1000);
         }
 
-        // Phase 2
+        // Phase 2 (input)
         static void AttackFunction(int _Attack)
         {
             Console.WriteLine("ATK: " + _Attack);
         }
 
+        // Phase 3 (output)
+        static int BaseAttack()
+        {
+            // atk: 10
+            int atk = 10;
+            return atk;
+        }
+
         static void Main(string[] args)
         {
             int atk = 0;
+            int baseAttack = 0;
             Console.WriteLine("Enter Character ATK: ");
             atk = int.Parse(Console.ReadLine());
 
-            AttackFunction(atk);
+            // atk
+            baseAttack = BaseAttack();
+
+            AttackFunction(baseAttack + atk);
         }
     }
 }
