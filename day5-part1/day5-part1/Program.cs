@@ -24,14 +24,22 @@ namespace day5_part1
             //    Console.WriteLine(num[i]);
             //}
 
-            // declaring array
-            int[] numbers = { 1, 2, 3 }; // simple way of setting size and value
-            int[] numbers1 = new int[3]; // set size only
-            int[] numbers2 = new int[] { 1, 2, 3 }; // set both size and value
+            //// declaring array
+            //int[] numbers = { 1, 2, 3 }; // simple way of setting size and value
+            //int[] numbers1 = new int[3]; // set size only
+            //int[] numbers2 = new int[] { 1, 2, 3 }; // set both size and value
+
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    Console.WriteLine(numbers[i]);
+            //}
+
+            // string array
+            string[] fruits = { "Apple", "Banana", "Orange" };
 
             for (int i = 0; i < 3; i++)
             {
-                Console.WriteLine(numbers[i]);
+                Console.WriteLine(fruits[i]);
             }
         }
     }
