@@ -83,28 +83,44 @@ namespace day5_part1
             //    Console.WriteLine();
             //}
 
-            // (example)
-            int[][] matrix = new int[2][];
+            //// (example)
+            //int[][] matrix = new int[2][];
 
-            matrix[0] = new int[3];
-            matrix[1] = new int[3];
+            //matrix[0] = new int[3];
+            //matrix[1] = new int[3];
 
-            matrix[0][0] = 1;
-            matrix[0][1] = 2;
-            matrix[0][2] = 3;
+            //matrix[0][0] = 1;
+            //matrix[0][1] = 2;
+            //matrix[0][2] = 3;
 
-            matrix[1][0] = 4;
-            matrix[1][1] = 5;
-            matrix[1][2] = 6;
+            //matrix[1][0] = 4;
+            //matrix[1][1] = 5;
+            //matrix[1][2] = 6;
 
-            for (int i = 0; i < matrix.Length; i++)
+            //for (int i = 0; i < matrix.Length; i++)
+            //{
+            //    for (int j = 0; j < matrix[i].Length; j++)
+            //    {
+            //        Console.Write(matrix[i][j] + " ");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            // jagged array (not used a lot)
+            Console.WriteLine("Jagged Array");
+            int[][] jaggedArray = new int[3][];
+
+            jaggedArray[0] = new int[] { 1, 2 };
+            jaggedArray[1] = new int[] { 3, 4, 5 };
+            jaggedArray[2] = new int[] { 6 };
+
+            for (int i = 0; i < jaggedArray.Length; i++)
             {
-                for (int j = 0; j < matrix[i].Length; j++)
+                for (int j = 0; j < jaggedArray[i].Length; j++)
                 {
-                    Console.Write(matrix[i][j] + " ");
+                    Console.Write($"{jaggedArray[i][j]}");
                 }
                 Console.WriteLine();
-
             }
         }
     }
