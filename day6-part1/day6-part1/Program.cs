@@ -31,6 +31,12 @@ namespace day6_part1
             // 6.
             Console.WriteLine(Multiply(3, 4));
             Console.WriteLine(Multiply(2.5, 3.5));
+
+            // Out (returning multiple values)
+            int q, r;
+            Divide(10, 3, out q, out r);
+
+            Console.WriteLine($"몱: {q}, 나머지: {r}"); // output: 3, remainder: 1
         }
 
         // 1. Function (no parameter, no return value)
@@ -72,6 +78,14 @@ namespace day6_part1
         static double Multiply(double a, double b)
         {
             return a * b;
+        }
+
+        // Out keyword
+        static void Divide(int a, int b, out int quotient, out int remainder)
+        {
+            quotient = a / b;
+
+            remainder = a % b;
         }
     }
 }
