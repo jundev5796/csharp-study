@@ -8,6 +8,31 @@ namespace day6_part1
 {
     class Program
     {
+        static void Main(string[] args)
+        {
+            // 1.
+            PrintHello(); // output
+
+            // 2.
+            PrintMessage("Hi");
+
+            // 3.
+            int num = GetNumber();
+            Console.WriteLine(num);
+
+            // 4.
+            int result = Add(3, 5);
+            Console.WriteLine(result);
+
+            // 5.
+            Greet();
+            Greet("Tom");
+
+            // 6.
+            Console.WriteLine(Multiply(3, 4));
+            Console.WriteLine(Multiply(2.5, 3.5));
+        }
+
         // 1. Function (no parameter, no return value)
         static void PrintHello()
         {
@@ -38,25 +63,15 @@ namespace day6_part1
             Console.WriteLine($"Hello, {name}");
         }
 
-        static void Main(string[] args)
+        //6. Function overloading
+        static int Multiply(int a, int b)
         {
-            // 1.
-            PrintHello(); // output
+            return a * b;
+        }
 
-            // 2.
-            PrintMessage("Hi");
-
-            // 3.
-            int num = GetNumber();
-            Console.WriteLine(num);
-
-            // 4.
-            int result = Add(3, 5);
-            Console.WriteLine(result);
-
-            // 5.
-            Greet();
-            Greet("Tom");
+        static double Multiply(double a, double b)
+        {
+            return a * b;
         }
     }
 }
