@@ -14,9 +14,16 @@ namespace day6_part1
             Console.WriteLine("Hello");
         }
 
+        // 2. Function w/ parameter
+        static void PrintMessage(string message)
+        {
+            Console.WriteLine(message);
+        }
+
         static void Main(string[] args)
         {
             PrintHello(); // output
+            PrintMessage("Hi");
         }
     }
 }
