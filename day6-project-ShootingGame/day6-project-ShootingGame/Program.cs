@@ -79,25 +79,34 @@ namespace day6_project_ShootingGame
 
                 long currentSecond = stopwatch.ElapsedMilliseconds; //현재시간 가져오기
 
+                // Console.WriteLine("1초루프");
+
+
                 if (currentSecond - prevSecond >= 100)
                 {
-                    // Console.WriteLine("1초루프");
+
+
+
                     Console.Clear();
 
-
-                    keyInfo = Console.ReadKey(true); //키 입력 받기 (화면 출력 X)
-
-                    //방향키 입력에 따른 좌표 변경
-                    switch (keyInfo.Key)
+                    if (Console.KeyAvailable) //키가 눌렸을때 true
                     {
-                        case ConsoleKey.UpArrow: if (playerY > 0) playerY--; break;
-                        case ConsoleKey.DownArrow: if (playerY < Console.WindowHeight - 1) playerY++; break;
-                        case ConsoleKey.LeftArrow: if (playerX > 0) playerX--; break;
-                        case ConsoleKey.RightArrow: if (playerX < Console.WindowWidth - 1) playerX++; break;
-                        case ConsoleKey.Spacebar: Console.Write("미사일키"); break;
-                        case ConsoleKey.Escape: return; //ESC키로 종료 
+                        keyInfo = Console.ReadKey(true); //키 입력 받기 (화면 출력 X)
+                                                         //방향키 입력에 따른 좌표 변경
+                        switch (keyInfo.Key)
+                        {
+                            case ConsoleKey.UpArrow: if (playerY > 0) playerY--; break;
+                            case ConsoleKey.DownArrow: if (playerY < Console.WindowHeight - 1) playerY++; break;
+                            case ConsoleKey.LeftArrow: if (playerX > 0) playerX--; break;
+                            case ConsoleKey.RightArrow: if (playerX < Console.WindowWidth - 1) playerX++; break;
+                            case ConsoleKey.Spacebar: Console.Write("미사일키"); break;
+                            case ConsoleKey.Escape: return; //ESC키로 종료 
+
+                        }
 
                     }
+
+
 
 
 
