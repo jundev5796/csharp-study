@@ -26,6 +26,12 @@ namespace day6_part1
             return 42;
         }
 
+        // 4. Fnction w/ parameter + return value
+        static int Add(int a, int b)
+        {
+            return a + b;
+        }
+
         static void Main(string[] args)
         {
             // 1.
@@ -37,6 +43,10 @@ namespace day6_part1
             // 3.
             int num = GetNumber();
             Console.WriteLine(num);
+
+            // 4.
+            int result = Add(3, 5);
+            Console.WriteLine(result);
         }
     }
 }
