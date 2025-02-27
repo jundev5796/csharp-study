@@ -20,10 +20,23 @@ namespace day6_part1
             Console.WriteLine(message);
         }
 
+        // 3. Function w/ return value
+        static int GetNumber()
+        {
+            return 42;
+        }
+
         static void Main(string[] args)
         {
+            // 1.
             PrintHello(); // output
+
+            // 2.
             PrintMessage("Hi");
+
+            // 3.
+            int num = GetNumber();
+            Console.WriteLine(num);
         }
     }
 }
