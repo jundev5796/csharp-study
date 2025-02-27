@@ -32,11 +32,18 @@ namespace day6_part1
             Console.WriteLine(Multiply(3, 4));
             Console.WriteLine(Multiply(2.5, 3.5));
 
-            // Out (returning multiple values)
+            // 7. Out (returning multiple values)
             int q, r;
             Divide(10, 3, out q, out r);
 
             Console.WriteLine($"몱: {q}, 나머지: {r}"); // output: 3, remainder: 1
+
+            // 8.
+            int value = 5;
+
+            Increase(ref value);
+
+            Console.WriteLine(value);
         }
 
         // 1. Function (no parameter, no return value)
@@ -69,7 +76,7 @@ namespace day6_part1
             Console.WriteLine($"Hello, {name}");
         }
 
-        //6. Function overloading
+        // 6. Function overloading
         static int Multiply(int a, int b)
         {
             return a * b;
@@ -80,12 +87,18 @@ namespace day6_part1
             return a * b;
         }
 
-        // Out keyword
+        // 7. out keyword
         static void Divide(int a, int b, out int quotient, out int remainder)
         {
             quotient = a / b;
 
             remainder = a % b;
+        }
+
+        // 8. ref keyword
+        static void Increase(ref int num)
+        {
+            num += 10;
         }
     }
 }
