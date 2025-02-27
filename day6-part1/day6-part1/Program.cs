@@ -26,10 +26,16 @@ namespace day6_part1
             return 42;
         }
 
-        // 4. Fnction w/ parameter + return value
+        // 4. Function w/ parameter + return value
         static int Add(int a, int b)
         {
             return a + b;
+        }
+
+        // 5. Function w/ default parameter
+        static void Greet(string name = "User")
+        {
+            Console.WriteLine($"Hello, {name}");
         }
 
         static void Main(string[] args)
@@ -47,6 +53,10 @@ namespace day6_part1
             // 4.
             int result = Add(3, 5);
             Console.WriteLine(result);
+
+            // 5.
+            Greet();
+            Greet("Tom");
         }
     }
 }
