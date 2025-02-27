@@ -32,7 +32,7 @@ namespace day6_part1
             Console.WriteLine(Multiply(3, 4));
             Console.WriteLine(Multiply(2.5, 3.5));
 
-            // 7. Out (returning multiple values)
+            // 7.
             int q, r;
             Divide(10, 3, out q, out r);
 
@@ -87,7 +87,7 @@ namespace day6_part1
             return a * b;
         }
 
-        // 7. out keyword
+        // 7. Function w/ out
         static void Divide(int a, int b, out int quotient, out int remainder)
         {
             quotient = a / b;
@@ -95,7 +95,7 @@ namespace day6_part1
             remainder = a % b;
         }
 
-        // 8. ref keyword
+        // 8. Function w/ ref
         static void Increase(ref int num)
         {
             num += 10;
