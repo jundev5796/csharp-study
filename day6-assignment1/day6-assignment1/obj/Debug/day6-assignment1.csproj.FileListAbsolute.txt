@@ -1,0 +1,7 @@
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\day6-assignment1\day6-assignment1\bin\Debug\day6-assignment1.exe.config
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\day6-assignment1\day6-assignment1\bin\Debug\day6-assignment1.exe
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\day6-assignment1\day6-assignment1\bin\Debug\day6-assignment1.pdb
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\day6-assignment1\day6-assignment1\obj\Debug\day6-assignment1.csproj.AssemblyReference.cache
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\day6-assignment1\day6-assignment1\obj\Debug\day6-assignment1.csproj.CoreCompileInputs.cache
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\day6-assignment1\day6-assignment1\obj\Debug\day6-assignment1.exe
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\day6-assignment1\day6-assignment1\obj\Debug\day6-assignment1.pdb
