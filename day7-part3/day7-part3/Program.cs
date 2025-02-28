@@ -57,13 +57,13 @@ namespace day7_part3
             //C#에서는 객체의 값을 읽고(get), 설정(set)하는
             //방식으로 함수(get/set 메서드) 또는
             //**프로퍼티(Property)**를 사용할 수 있습니다.
-            Person p = new Person();
+            //Person p = new Person();
 
-            p.Name = "Tom";
+            //p.Name = "Tom";
 
-            p.AddBal();
+            //p.AddBal();
 
-            Console.WriteLine("Name: " + p.Name + "Count: " + p.Count + "Balance" + p.Balance);
+            //Console.WriteLine("Name: " + p.Name + "Count: " + p.Count + "Balance" + p.Balance);
 
             //p.SetName("Tom");
 
