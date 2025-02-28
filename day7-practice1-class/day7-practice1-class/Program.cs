@@ -8,6 +8,7 @@ using System.Xml.Linq;
 
 namespace day7_practice1_class
 {
+    // create 'marine' unit
     class Marine
     {
         public string Name;
@@ -25,6 +26,7 @@ namespace day7_practice1_class
         }
     }
 
+    // create 'scv' unit
     class SCV
     {
         public string Name;
@@ -42,6 +44,7 @@ namespace day7_practice1_class
         }
     }
 
+    // create 'barrack' class
     class Barracks
     {
         public string Name;
@@ -80,10 +83,30 @@ namespace day7_practice1_class
         }
     }
 
+    // creating a 'Game' class
+    class Game
+    {
+        public static int mineral;
+        public static int gas;
+        public static int charCount;
+
+        public static void ShowInfo()
+        {
+            Console.WriteLine($"Mineral {mineral} Gas {gas} Population {charCount}");
+        }
+    }
+
     class Program
     {
         static void Main(string[] args)
         {
+            // game instance
+            Game.mineral = 50;
+            Game.gas = 0;
+            Game.charCount = 4;
+            Game.ShowInfo();
+
+            //
             Marine marine = new Marine("Marine", 50);
             SCV scv = new SCV("SCV", 50);
             Barracks barracks = new Barracks();
