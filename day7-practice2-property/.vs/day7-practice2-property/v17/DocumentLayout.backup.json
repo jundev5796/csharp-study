@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Test\\csharp-test\\day7-practice2-property\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9CE3E872-AF6E-4835-A249-9E3A0A718496}|day7-practice2-property\\day7-practice2-property.csproj|d:\\game dev\\likelion unity bootcamp\\test\\csharp-test\\day7-practice2-property\\day7-practice2-property\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CE3E872-AF6E-4835-A249-9E3A0A718496}|day7-practice2-property\\day7-practice2-property.csproj|solutionrelative:day7-practice2-property\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Test\\csharp-test\\day7-practice2-property\\day7-practice2-property\\Program.cs",
+              "RelativeDocumentMoniker": "day7-practice2-property\\Program.cs",
+              "ToolTip": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Test\\csharp-test\\day7-practice2-property\\day7-practice2-property\\Program.cs*",
+              "RelativeToolTip": "day7-practice2-property\\Program.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T02:49:00.546Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

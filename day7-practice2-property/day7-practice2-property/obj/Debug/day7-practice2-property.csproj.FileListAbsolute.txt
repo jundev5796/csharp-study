@@ -1,0 +1,7 @@
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\day7-practice2-property\day7-practice2-property\bin\Debug\day7-practice2-property.exe.config
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\day7-practice2-property\day7-practice2-property\bin\Debug\day7-practice2-property.exe
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\day7-practice2-property\day7-practice2-property\bin\Debug\day7-practice2-property.pdb
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\day7-practice2-property\day7-practice2-property\obj\Debug\day7-practice2-property.csproj.AssemblyReference.cache
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\day7-practice2-property\day7-practice2-property\obj\Debug\day7-practice2-property.csproj.CoreCompileInputs.cache
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\day7-practice2-property\day7-practice2-property\obj\Debug\day7-practice2-property.exe
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\day7-practice2-property\day7-practice2-property\obj\Debug\day7-practice2-property.pdb
