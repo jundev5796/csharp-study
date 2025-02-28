@@ -17,11 +17,11 @@ namespace day7_part2
         // - A special method that is automatically executed when a class is instantiated as an object.
         // - It has the same name as the class and does not have a return type(not even void).
         // - It is often used to set initial values when creating an object.
-        public Person()
+        public Person(string name, int age)
         {
-            Name = "No Name";
-            Age = 0;
-            Console.WriteLine("constructor activates");
+            Name = name;
+            Age = age;
+            Console.WriteLine("constructor w/ parameter activates");
         }
 
         public void ShowInfo()
@@ -34,8 +34,11 @@ namespace day7_part2
     {
         static void Main(string[] args)
         {
-            Person p1 = new Person(); // create instance
+            Person p1 = new Person("Tom", 25); // create instance
             p1.ShowInfo();
+
+            Person p2 = new Person("Lisa", 30);
+            p2.ShowInfo();
         }
     }
 }
