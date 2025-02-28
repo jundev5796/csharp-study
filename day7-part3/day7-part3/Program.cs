@@ -11,7 +11,19 @@ namespace day7_part3
     class Person
     {
         // most shortened version of property
-        public string Name { get; set; }
+        private int count = 100;
+        public string Name { get; set; } //자동 구현 프로퍼티
+        public int Count
+        {
+            get { return count; } //읽기만 가능
+        }
+
+        public float Balance { get; private set; } //외부 변경 불가
+
+        public void AddBal()
+        {
+            Balance += 100;
+        }
 
         //private string name;
 
@@ -49,7 +61,9 @@ namespace day7_part3
 
             p.Name = "Tom";
 
-            Console.WriteLine("Name: " + p.Name);
+            p.AddBal();
+
+            Console.WriteLine("Name: " + p.Name + "Count: " + p.Count + "Balance" + p.Balance);
 
             //p.SetName("Tom");
 
