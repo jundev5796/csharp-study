@@ -7,21 +7,31 @@ using System.Threading.Tasks;
 namespace day7_part3
 {
     // 3. get/set type function
+    // 4. property (shorter way of get/set)
     class Person
     {
-        private string name; // protected variable
+        private string name;
 
-        // set value (setter)
-        public void SetName(string newName)
+        public string Name
         {
-            name = newName;
+            get { return name; } // getter
+            set { name = value; } // setter
         }
 
-        // get value (getter)
-        public string GetName()
-        {
-            return name;
-        }
+        // get/set
+        //private string name; // protected variable
+
+        //// set value (setter)
+        //public void SetName(string newName)
+        //{
+        //    name = newName;
+        //}
+
+        //// get value (getter)
+        //public string GetName()
+        //{
+        //    return name;
+        //}
     }
 
     class Program
@@ -34,9 +44,13 @@ namespace day7_part3
             //**프로퍼티(Property)**를 사용할 수 있습니다.
             Person p = new Person();
 
-            p.SetName("Tom");
+            p.Name = "Tom";
 
-            Console.WriteLine("Name: " + p.GetName());
+            Console.WriteLine("Name: " + p.Name);
+
+            //p.SetName("Tom");
+
+            //Console.WriteLine("Name: " + p.GetName());
         }
     }
 }
