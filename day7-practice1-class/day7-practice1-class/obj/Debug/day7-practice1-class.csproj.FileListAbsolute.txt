@@ -1,0 +1,7 @@
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\day7-practice1-class\day7-practice1-class\bin\Debug\day7-practice1-class.exe.config
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\day7-practice1-class\day7-practice1-class\bin\Debug\day7-practice1-class.exe
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\day7-practice1-class\day7-practice1-class\bin\Debug\day7-practice1-class.pdb
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\day7-practice1-class\day7-practice1-class\obj\Debug\day7-practice1-class.csproj.AssemblyReference.cache
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\day7-practice1-class\day7-practice1-class\obj\Debug\day7-practice1-class.csproj.CoreCompileInputs.cache
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\day7-practice1-class\day7-practice1-class\obj\Debug\day7-practice1-class.exe
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\day7-practice1-class\day7-practice1-class\obj\Debug\day7-practice1-class.pdb

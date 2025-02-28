@@ -17,6 +17,9 @@ namespace day7_part2
         // - A special method that is automatically executed when a class is instantiated as an object.
         // - It has the same name as the class and does not have a return type(not even void).
         // - It is often used to set initial values when creating an object.
+
+        // this
+        // - current instance of a class
         public Person(string name, int age)
         {
             Name = name;
