@@ -10,13 +10,16 @@ namespace day7_part3
     // 4. property (shorter way of get/set)
     class Person
     {
-        private string name;
+        // most shortened version of property
+        public string Name { get; set; }
 
-        public string Name
-        {
-            get { return name; } // getter
-            set { name = value; } // setter
-        }
+        //private string name;
+
+        //public string Name
+        //{
+        //    get { return name; } // getter
+        //    set { name = value; } // setter
+        //}
 
         // get/set
         //private string name; // protected variable
