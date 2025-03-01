@@ -11,24 +11,25 @@ namespace Shooting_Game
     // missile class
     public class BULLET
     {
-        public int x;
-        public int y;
-        public bool fire;
+        public int x; // bullet x-coord
+        public int y; // bullet y-coord
+        public bool fire; // bullet trigger
     }
+
     // player class
     public class Player
     {
         [DllImport("msvcrt.dll")]
-        static extern int _getch();  //c언어 함수 가져옴
+        static extern int _getch();  // grab from C code (waits for a 'keypress' and 'returns' ASCII value of the pressed key)
 
-        public int playerX;   // player x-coord
-        public int playerY;   // player y-coord
-        public BULLET[] playerBullet = new BULLET[20];
+        public int playerX; // player x-coord
+        public int playerY; // player y-coord
+        public BULLET[] playerBullet = new BULLET[20]; // 20 bullets within array for bullet class
         public BULLET[] playerBullet2 = new BULLET[20];
         public BULLET[] playerBullet3 = new BULLET[20];
-        public int Score = 100;
-        public Item item = new Item();
-        public int itemCount = 0;
+        public int Score = 100; // score starts from 100
+        public Item item = new Item(); // 
+        public int itemCount = 0; // tracks the number of collected items
 
 
         public Player() // instance
@@ -62,7 +63,6 @@ namespace Shooting_Game
             KeyControl();
             // draw player
             PlayerDraw();
-
             // ui score
             UIscore();
 
@@ -76,11 +76,11 @@ namespace Shooting_Game
 
         public void KeyControl()
         {
-            int pressKey;  //정수형 변수선언 키값 받을거임 
+            int pressKey;  // 정수형 변수선언 키값 받을거임 
 
-            if (Console.KeyAvailable) //키가 눌렸을때 true
+            if (Console.KeyAvailable) // 키가 눌렸을때 true
             {
-                pressKey = _getch(); //아스키값 왼쪽 오른쪽
+                pressKey = _getch(); // 아스키값 left right
 
                 if (pressKey == 0 || pressKey == 224) // 화살표 키 또는 특수 키 감지
                 {
@@ -89,33 +89,33 @@ namespace Shooting_Game
 
                 switch (pressKey)
                 {
-                    case 72:  //위쪽방향 아스키코드                    
+                    case 72:  // up 아스키코드                    
                         playerY--;
                         if (playerY < 1)
                             playerY = 1;
                         break;
                     case 75:
-                        //왼쪽 화살표키
+                        // left 화살표키
                         playerX--;
                         if (playerX < 0)
                             playerX = 0;
                         break;
                     case 77:
-                        //오른쪽
+                        // right
                         playerX++;
                         if (playerX > 75)
                             playerX = 75;
                         break;
-                    case 80: //아래
+                    case 80: // down
                         playerY++;
                         if (playerY > 21)
                             playerY = 21;
                         break;
-                    case 32: //스페이스바
-                        //총알 발사
+                    case 32: // spacebar
+                        // shoot bullet
                         for (int i = 0; i < 20; i++)
                         {
-                            //미사일이 false 발사가능
+                            // 미사일이 false 발사가능
                             if (playerBullet[i].fire == false)
                             {
                                 playerBullet[i].fire = true;
@@ -161,15 +161,15 @@ namespace Shooting_Game
             }
         }
 
-        //미사일 그리기
+        // draw missile
         public void BulletDraw()
         {
-            string bullet = "->"; //미사일모습
+            string bullet = "->"; // draw missile
 
-            //20개
+            // 20 ammo
             for (int i = 0; i < 20; i++)
             {
-                //미사일이 살아있는 상태
+                // 미사일이 살아있는 상태
                 if (playerBullet[i].fire == true)
                 {
                     //좌표설정 -> 중간위치를 위해 보정을 위해 x-1
@@ -332,17 +332,16 @@ namespace Shooting_Game
                     if (playerBullet3[i].y == enemy.enemyY)
                     {
                         if (playerBullet3[i].x >= (enemy.enemyX - 1)
-                            && playerBullet3[i].x <= (enemy.enemyX + 1)) //충돌
+                            && playerBullet3[i].x <= (enemy.enemyX + 1)) // 충돌
                         {
-                            //충돌
-
+                            // 충돌
                             Random rand = new Random();
                             enemy.enemyX = 75;
                             enemy.enemyY = rand.Next(2, 22);
 
-                            playerBullet3[i].fire = false; //미사일도 준비상태로 만들어주기
+                            playerBullet3[i].fire = false; // 미사일도 준비상태로 만들어주기
 
-                            //스코어
+                            // score
                             Score += 100;
 
                         }
@@ -413,7 +412,7 @@ namespace Shooting_Game
 
         public void EnemyDraw()//적그리기
         {
-            string enemy = "<-0->"; //문자열로 표현
+            string enemy = "👾"; //문자열로 표현
             Console.SetCursorPosition(enemyX, enemyY); //좌표설정
             Console.Write(enemy);//출력
         }
@@ -444,7 +443,7 @@ namespace Shooting_Game
         public void ItemDraw()
         {
             Console.SetCursorPosition(itemX, itemY);
-            ItemSprite = "Item★";
+            ItemSprite = "🚀";
             Console.Write(ItemSprite);
         }
 
@@ -463,13 +462,12 @@ namespace Shooting_Game
     {
         static void Main(string[] args)
         {
-
             Console.CursorVisible = false;
 
             Console.SetWindowSize(80, 25);
             Console.SetBufferSize(80, 25);
 
-
+            Console.OutputEncoding = Encoding.UTF8;
 
             //플레이어 생성
             Player player = new Player();

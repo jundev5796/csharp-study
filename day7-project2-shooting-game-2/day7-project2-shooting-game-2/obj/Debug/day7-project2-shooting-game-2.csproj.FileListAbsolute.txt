@@ -1,0 +1,7 @@
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\day7-project2-shooting-game-2\day7-project2-shooting-game-2\bin\Debug\day7-project2-shooting-game-2.exe.config
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\day7-project2-shooting-game-2\day7-project2-shooting-game-2\bin\Debug\day7-project2-shooting-game-2.exe
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\day7-project2-shooting-game-2\day7-project2-shooting-game-2\bin\Debug\day7-project2-shooting-game-2.pdb
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\day7-project2-shooting-game-2\day7-project2-shooting-game-2\obj\Debug\day7-project2-shooting-game-2.csproj.AssemblyReference.cache
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\day7-project2-shooting-game-2\day7-project2-shooting-game-2\obj\Debug\day7-project2-shooting-game-2.csproj.CoreCompileInputs.cache
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\day7-project2-shooting-game-2\day7-project2-shooting-game-2\obj\Debug\day7-project2-shooting-game-2.exe
+D:\Game Dev\LikeLion Unity Bootcamp\Test\csharp-test\day7-project2-shooting-game-2\day7-project2-shooting-game-2\obj\Debug\day7-project2-shooting-game-2.pdb
