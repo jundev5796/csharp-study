@@ -19,12 +19,18 @@ namespace day8_part2
             //Console.WriteLine($"ValueType: {valueType}"); // 20
             //Console.WriteLine($"ReferenceType: {referenceType}"); // 19
 
-            // 2. boxing (converts var into ref and vice-versa)
-            int value = 42;
-            object boxed = value; // boxing
-            int unboxed = (int)boxed; // unboxing
+            //// 2. boxing (converts var into ref and vice-versa)
+            //int value = 42;
+            //object boxed = value; // boxing
+            //int unboxed = (int)boxed; // unboxing
 
-            Console.WriteLine($"Boxed: {boxed}, Unboxed: {unboxed}");
+            //Console.WriteLine($"Boxed: {boxed}, Unboxed: {unboxed}");
+
+            // 3. is (checking if object is a certain type)
+            object obj = "Hello";
+
+            Console.WriteLine(obj is string); // true
+            Console.WriteLine(obj is int); // false
         }
     }
 }
