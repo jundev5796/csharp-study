@@ -106,14 +106,24 @@ namespace day8_part4_collection
 
             //Console.WriteLine(nullableInt.HasValue ? nullableInt.Value.ToString() : "No value");
 
-            // 6. ?? operator (check for null values)
-            string str = null;
+            //// 6. ?? operator (check for null values)
+            //string str = null;
 
-            Console.WriteLine(str ?? "DefaultValue"); // if str = null, "Default Value"
+            //Console.WriteLine(str ?? "DefaultValue"); // if str = null, "Default Value"
 
-            str = "Hello";
+            //str = "Hello";
 
-            Console.WriteLine(str?.Length); // if str != null, print length
+            //Console.WriteLine(str?.Length); // if str != null, print length
+
+            // 7. LINQ (Language Integrated Query)
+            int[] numbers = { 1, 2, 3, 4, 5 };
+
+            var evenNumbers = numbers.Where(n => n % 2 == 0);
+
+            foreach(var num in evenNumbers)
+            {
+                Console.WriteLine(num);
+            }
         }
     }
 }
