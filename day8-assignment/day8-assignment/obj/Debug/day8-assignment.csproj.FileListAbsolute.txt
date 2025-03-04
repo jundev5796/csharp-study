@@ -1,0 +1,7 @@
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day8-assignment\day8-assignment\bin\Debug\day8-assignment.exe.config
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day8-assignment\day8-assignment\bin\Debug\day8-assignment.exe
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day8-assignment\day8-assignment\bin\Debug\day8-assignment.pdb
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day8-assignment\day8-assignment\obj\Debug\day8-assignment.csproj.AssemblyReference.cache
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day8-assignment\day8-assignment\obj\Debug\day8-assignment.csproj.CoreCompileInputs.cache
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day8-assignment\day8-assignment\obj\Debug\day8-assignment.exe
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day8-assignment\day8-assignment\obj\Debug\day8-assignment.pdb
