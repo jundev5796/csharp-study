@@ -39,12 +39,38 @@ namespace day8_part1_class
 
             //Console.WriteLine($"Time: {stopwatch.ElapsedMilliseconds}ms");
 
-            // 4. Regular Expression (checking strings for diagnosis)
-            string input = "Hello, my phone number is 010-1234-5678.";
-            string pattern = @"\d{3}-\d{4}-\d{4}"; // phone number pattern
+            //// 4. Regular Expression (checking strings for diagnosis)
+            //string input = "Hello, my phone number is 010-1234-5678.";
+            //string pattern = @"\d{3}-\d{4}-\d{4}"; // phone number pattern
 
-            bool isMatch = Regex.IsMatch(input, pattern);
-            Console.WriteLine($"Phone Number Exist? {isMatch}");
+            //bool isMatch = Regex.IsMatch(input, pattern);
+            //Console.WriteLine($"Phone Number Exist? {isMatch}");
         }
     }
+
+    //// abstract class
+    //public abstract class Animal
+    //{
+    //    public abstract void MakeSound();
+    //}
+
+    //// main class
+    //public class Player
+    //{
+    //    public string Name { get; set; }
+    //    public string Score { get; set; }
+    //}
+
+    //// inheritence
+    //public class Warrior : Player
+    //{
+    //    public int Strength { get; set; }
+    //}
+
+    //// interface
+    //public class Enemy: IAttackable, IMovable
+    //{
+    //    public void Attack() { }
+    //    public void Move() { }
+    //}
 }
