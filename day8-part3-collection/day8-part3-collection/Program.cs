@@ -14,7 +14,7 @@ namespace day8_part3_collection
         {
             //int[] numbers = { 1, 2, 3, 4, 5 };
 
-            //foreach(var num in numbers)
+            //foreach (var num in numbers)
             //{
             //    Console.WriteLine(num);
             //}
@@ -25,7 +25,7 @@ namespace day8_part3_collection
             //names.Add("Dave"); // add name
             //names.Remove("Bob"); // remove name
 
-            //foreach(var name in names)
+            //foreach (var name in names)
             //{
             //    Console.WriteLine(name); // new list for names
             //}
@@ -68,16 +68,32 @@ namespace day8_part3_collection
             //    Console.WriteLine(stack.Pop());
             //}
 
-            // 3. Queue (FILO)
+            //// 3. Queue (FILO)
+            //Queue queue = new Queue();
+            //queue.Enqueue(1);
+            //queue.Enqueue(2);
+            //queue.Enqueue(3);
+            //while (queue.Count > 0)
+            //{
+            //    Console.WriteLine(queue.Dequeue());
+            //}
+
+            // Example
             Queue queue = new Queue();
-            queue.Enqueue(1);
-            queue.Enqueue(2);
-            queue.Enqueue(3);
+
+            queue.Enqueue("q");
+            queue.Enqueue("w");
+            queue.Enqueue("e");
+            queue.Enqueue("r");
+            queue.Enqueue("Flash");
+            queue.Enqueue("Attack");
+
             while (queue.Count > 0)
             {
                 Console.WriteLine(queue.Dequeue());
             }
 
+            Console.WriteLine(queue.Count);
         }
     }
 }
