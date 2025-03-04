@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -29,24 +30,44 @@ namespace day8_part3_collection
             //    Console.WriteLine(name); // new list for names
             //}
 
-            // Example
-            List<int> list = new List<int>();
+            //// Example
+            //List<int> list = new List<int>();
 
-            list.Add(1);
-            list.Add(2);
-            list.Add(3);
+            //list.Add(1);
+            //list.Add(2);
+            //list.Add(3);
 
-            Console.WriteLine(list[1]);
-            list.Insert(1, 100); // add value and move numbers
-            Console.WriteLine(list[1]);
+            ////foreach(int i in list)
+            ////{
+            ////    Console.WriteLine(i);
+            ////}
 
-            Console.WriteLine(list[0]);
-            Console.WriteLine(list.Count);
+            ////Console.WriteLine(list[1]);
+            ////list.Insert(1, 100);
+            ////Console.WriteLine(list[1]);
 
-            foreach (int i in list)
+            ////Console.WriteLine(list[0]);
+
+            //list.Insert(1, 100);
+            //Console.WriteLine(list.Count);
+
+            //list[2] = 200;
+
+            //foreach (int i in list)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+            // 2. stack (LIFO)
+            Stack stack = new Stack();
+            stack.Push(1);
+            stack.Push(2);
+            stack.Push(3);
+            while (stack.Count > 0)
             {
-                Console.WriteLine(i);
+                Console.WriteLine(stack.Pop());
             }
+
         }
     }
 }
