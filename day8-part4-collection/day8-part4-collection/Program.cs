@@ -77,17 +77,34 @@ namespace day8_part4_collection
             //    Console.WriteLine(i);
             //}
 
-            // 4. dictionary
-            Dictionary<string, int> ages = new Dictionary<string, int>();
+            //// 4. dictionary
+            //Dictionary<string, int> ages = new Dictionary<string, int>();
 
-            ages["Gold Axe"] = 10;
-            ages["Silver Axe"] = 5;
-            ages["Stone Axe"] = 1;
-            
-            foreach(var pair in ages)
+            //ages["Gold Axe"] = 10;
+            //ages["Silver Axe"] = 5;
+            //ages["Stone Axe"] = 1;
+
+            //foreach(var pair in ages)
+            //{
+            //    Console.WriteLine($"{pair.Key} : { pair.Value}");
+            //}
+
+            // 5. null
+            // reference types can be null, whereas value types cannot be null by default
+            string str = null;
+
+            if (str == null)
             {
-                Console.WriteLine($"{pair.Key} : { pair.Value}");
+                Console.WriteLine("str is null");
             }
+
+            int? nullableInt = null;
+
+            Console.WriteLine(nullableInt.HasValue ? nullableInt.Value.ToString() : "No value");
+
+            nullableInt = 10;
+
+            Console.WriteLine(nullableInt.HasValue ? nullableInt.Value.ToString() : "No value");
         }
     }
 }
