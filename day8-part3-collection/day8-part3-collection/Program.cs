@@ -78,22 +78,44 @@ namespace day8_part3_collection
             //    Console.WriteLine(queue.Dequeue());
             //}
 
-            // Example
-            Queue queue = new Queue();
+            //// Example
+            //Queue queue = new Queue();
 
-            queue.Enqueue("q");
-            queue.Enqueue("w");
-            queue.Enqueue("e");
-            queue.Enqueue("r");
-            queue.Enqueue("Flash");
-            queue.Enqueue("Attack");
+            //queue.Enqueue("q");
+            //queue.Enqueue("w");
+            //queue.Enqueue("e");
+            //queue.Enqueue("r");
+            //queue.Enqueue("Flash");
+            //queue.Enqueue("Attack");
 
-            while (queue.Count > 0)
+            //while (queue.Count > 0)
+            //{
+            //    Console.WriteLine(queue.Dequeue());
+            //}
+
+            //Console.WriteLine(queue.Count);
+
+            // 4. ArrayList
+            ArrayList arrayList = new ArrayList();
+
+            arrayList.Add(1); // integer
+            arrayList.Add("Hello"); // string
+            arrayList.Add(3.14); // float
+
+            Console.WriteLine("ArrayList: ");
+            foreach(var item in arrayList)
             {
-                Console.WriteLine(queue.Dequeue());
+                Console.WriteLine(item);
             }
 
-            Console.WriteLine(queue.Count);
+            arrayList.Remove(1);
+
+            Console.WriteLine("\nArrayList w/ remove: ");
+
+            foreach(var item in arrayList)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }
