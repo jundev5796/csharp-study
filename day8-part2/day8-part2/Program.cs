@@ -125,14 +125,28 @@ namespace day8_part2
             //    Console.WriteLine("Program Runs");
             //}
 
-            // 9. exception class
+            //// 9. exception class
+            //try
+            //{
+            //    int number = int.Parse("abc");
+            //}
+            //catch(Exception ex)
+            //{
+            //    Console.WriteLine($"General Error: {ex.Message}");
+            //}
+
+            // 10. throw (test with actual error)
             try
             {
-                int number = int.Parse("abc");
+                int age = -5;
+                if (age < 0)
+                {
+                    throw new ArgumentException("Age cannot be negative");
+                }
             }
             catch(Exception ex)
             {
-                Console.WriteLine($"General Error: {ex.Message}");
+                Console.WriteLine($"Exceptoin: {ex.Message}");
             }
         }
     }
