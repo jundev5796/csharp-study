@@ -26,11 +26,17 @@ namespace day8_part2
 
             //Console.WriteLine($"Boxed: {boxed}, Unboxed: {unboxed}");
 
-            // 3. is (checking if object is a certain type)
-            object obj = "Hello";
+            //// 3. is (checking if object is a certain type)
+            //object obj = "Hello";
 
-            Console.WriteLine(obj is string); // true
-            Console.WriteLine(obj is int); // false
+            //Console.WriteLine(obj is string); // true
+            //Console.WriteLine(obj is int); // false
+
+            // 4. as (change obj type)
+            object obj = "Hello";
+            string str = obj as string;
+
+            Console.WriteLine(str is string);
         }
     }
 }
