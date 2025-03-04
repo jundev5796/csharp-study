@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -26,17 +27,24 @@ namespace day8_part1_class
             //int randomNumber = random.Next(1, 101);
             //Console.WriteLine("Random Number: " + randomNumber);
 
-            // 3. Saving Runtime
-            Stopwatch stopwatch = Stopwatch.StartNew();
+            //// 3. Saving Runtime
+            //Stopwatch stopwatch = Stopwatch.StartNew();
 
-            for (int i = 0; i < 100; i++)
-            {
-                Thread.Sleep(1); // 0.001
-            }
+            //for (int i = 0; i < 100; i++)
+            //{
+            //    Thread.Sleep(1); // 0.001
+            //}
 
-            stopwatch.Stop();
+            //stopwatch.Stop();
 
-            Console.WriteLine($"Time: {stopwatch.ElapsedMilliseconds}ms");
+            //Console.WriteLine($"Time: {stopwatch.ElapsedMilliseconds}ms");
+
+            // 4. Regular Expression (checking strings for diagnosis)
+            string input = "Hello, my phone number is 010-1234-5678.";
+            string pattern = @"\d{3}-\d{4}-\d{4}"; // phone number pattern
+
+            bool isMatch = Regex.IsMatch(input, pattern);
+            Console.WriteLine($"Phone Number Exist? {isMatch}");
         }
     }
 }
