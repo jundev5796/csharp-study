@@ -50,16 +50,21 @@ namespace day8_part2
             //    Console.WriteLine("Not a Number");
             //}
 
-            // 5. string methods
-            string greeting = "Hello";
-            string name = "Alice";
+            //// 5. string methods
+            //string greeting = "Hello";
+            //string name = "Alice";
 
-            string message = greeting + "," + name + "!";
-            Console.WriteLine(message); // Hello, Alice
+            //string message = greeting + "," + name + "!";
+            //Console.WriteLine(message); // Hello, Alice
 
-            Console.WriteLine($"Length of name: {name.Length}"); // string length
-            Console.WriteLine($"To Upper: {name.ToUpper()}"); // convert to uppercase
-            Console.WriteLine($"Substring: {name.Substring(1)}"); // part of string
+            //Console.WriteLine($"Length of name: {name.Length}"); // string length
+            //Console.WriteLine($"To Upper: {name.ToUpper()}"); // convert to uppercase
+            //Console.WriteLine($"Substring: {name.Substring(1)}"); // part of string
+
+            string text = "C# is awesome!";
+            Console.WriteLine($"Contains 'awesome': {text.Contains("awesome")}");
+            Console.WriteLine($"Starts with 'C#': {text.StartsWith("C#")}");
+            Console.WriteLine($"Index of 'is': {text.IndexOf("is")}");
         }
     }
 }
