@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Test\\csharp-test\\day7-project1-shooting-game\\",
+  "WorkspaceRootPath": "D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\day7-project1-shooting-game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{44EE91EE-8A0F-4E94-81DC-834E8D898637}|day7-project1-shooting-game\\day7-project1-shooting-game.csproj|d:\\game dev\\likelion unity bootcamp\\test\\csharp-test\\day7-project1-shooting-game\\day7-project1-shooting-game\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{44EE91EE-8A0F-4E94-81DC-834E8D898637}|day7-project1-shooting-game\\day7-project1-shooting-game.csproj|d:\\game dev\\likelion unity bootcamp\\csharp-study\\day7-project1-shooting-game\\day7-project1-shooting-game\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44EE91EE-8A0F-4E94-81DC-834E8D898637}|day7-project1-shooting-game\\day7-project1-shooting-game.csproj|solutionrelative:day7-project1-shooting-game\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Test\\csharp-test\\day7-project1-shooting-game\\day7-project1-shooting-game\\Program.cs",
+              "DocumentMoniker": "D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\day7-project1-shooting-game\\day7-project1-shooting-game\\Program.cs",
               "RelativeDocumentMoniker": "day7-project1-shooting-game\\Program.cs",
-              "ToolTip": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Test\\csharp-test\\day7-project1-shooting-game\\day7-project1-shooting-game\\Program.cs",
+              "ToolTip": "D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\day7-project1-shooting-game\\day7-project1-shooting-game\\Program.cs",
               "RelativeToolTip": "day7-project1-shooting-game\\Program.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAqwFcAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAANYAAAAAAAAAAAAwwMQAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-28T04:11:29.743Z",
               "EditorCaption": ""

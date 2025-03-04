@@ -359,6 +359,7 @@ namespace Shooting_Game
             Console.SetCursorPosition(65, 1);
             Console.Write("Score : " + Score);
             Console.SetCursorPosition(63, 2);
+            Console.SetCursorPosition(63, 2);
             Console.Write("┗━━━━━━━━━━━━━━┛");
         }
 
