@@ -95,26 +95,55 @@ namespace day8_part3_collection
 
             //Console.WriteLine(queue.Count);
 
-            // 4. ArrayList
-            ArrayList arrayList = new ArrayList();
+            //// 4. ArrayList
+            //ArrayList arrayList = new ArrayList();
 
-            arrayList.Add(1); // integer
-            arrayList.Add("Hello"); // string
-            arrayList.Add(3.14); // float
+            //arrayList.Add(1); // integer
+            //arrayList.Add("Hello"); // string
+            //arrayList.Add(3.14); // float
 
-            Console.WriteLine("ArrayList: ");
-            foreach(var item in arrayList)
+            //Console.WriteLine("ArrayList: ");
+            //foreach(var item in arrayList)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            //arrayList.Remove(1);
+
+            //Console.WriteLine("\nArrayList w/ remove: ");
+
+            //foreach(var item in arrayList)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            // 5. hashtable
+            // key-value collection
+            Hashtable hashtable = new Hashtable();
+
+            // add key-value
+            hashtable["Alice"] = 25;
+            hashtable["Bob"] = 30;
+            hashtable["Potion"] = 20;
+
+            Console.WriteLine("Hashtable: ");
+
+            foreach(DictionaryEntry entry in hashtable)
             {
-                Console.WriteLine(item);
+                Console.WriteLine($"Key: {entry.Key}, Value: {entry.Value}");
             }
 
-            arrayList.Remove(1);
+            // specific key
+            Console.WriteLine($"\nAlice Age: {hashtable["Alice"]}");
 
-            Console.WriteLine("\nArrayList w/ remove: ");
+            // remove key
+            hashtable.Remove("Bob");
 
-            foreach(var item in arrayList)
+            Console.WriteLine("Hashtable: ");
+
+            foreach (DictionaryEntry entry in hashtable)
             {
-                Console.WriteLine(item);
+                Console.WriteLine($"Key : {entry.Key}, Value : {entry.Value}");
             }
         }
     }
