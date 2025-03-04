@@ -32,11 +32,23 @@ namespace day8_part2
             //Console.WriteLine(obj is string); // true
             //Console.WriteLine(obj is int); // false
 
-            // 4. as (change obj type)
-            object obj = "Hello";
-            string str = obj as string;
+            //// 4. as (change obj type)
+            //object obj = "Hello";
+            //string str = obj as string;
 
-            Console.WriteLine(str is string);
+            //Console.WriteLine(str is string);
+
+            // Example
+            object obj = 42;
+
+            if (obj is int number)
+            {
+                Console.WriteLine($"Number: {number}");
+            }
+            else
+            {
+                Console.WriteLine("Not a Number");
+            }
         }
     }
 }
