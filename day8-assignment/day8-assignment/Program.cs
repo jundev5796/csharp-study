@@ -42,39 +42,47 @@ namespace day8_assignment
             //    Console.WriteLine("올바른 숫자를 입력하세요!");
             //}
 
-            // Problem #3
-            List<string> fruits = new List<string>();
-            fruits.Add("사과");
-            fruits.Add("바나나");
-            fruits.Add("포도");
-            Console.WriteLine("과일:");
+            //// Problem #3
+            //List<string> fruits = new List<string>();
+            //fruits.Add("사과");
+            //fruits.Add("바나나");
+            //fruits.Add("포도");
+            //Console.WriteLine("과일:");
 
-            foreach(var fruit in fruits)
-            {
-                Console.WriteLine(fruit);
-            }
+            //foreach(var fruit in fruits)
+            //{
+            //    Console.WriteLine(fruit);
+            //}
 
-            Queue<string> jobs = new Queue<string>();
-            jobs.Enqueue("첫 번째 작업");
-            jobs.Enqueue("두 번째 작업");
-            jobs.Enqueue("세 번째 작업");
-            Console.WriteLine("\n작업:");
+            //Queue<string> jobs = new Queue<string>();
+            //jobs.Enqueue("첫 번째 작업");
+            //jobs.Enqueue("두 번째 작업");
+            //jobs.Enqueue("세 번째 작업");
+            //Console.WriteLine("\n작업:");
 
-            while (jobs.Count > 0)
-            {
-                Console.WriteLine(jobs.Dequeue());
-            }
+            //while (jobs.Count > 0)
+            //{
+            //    Console.WriteLine(jobs.Dequeue());
+            //}
 
-            Stack<int> num = new Stack<int>();
-            num.Push(10);
-            num.Push(20);
-            num.Push(30);
-            Console.WriteLine("\n숫자:");
+            //Stack<int> num = new Stack<int>();
+            //num.Push(10);
+            //num.Push(20);
+            //num.Push(30);
+            //Console.WriteLine("\n숫자:");
 
-            while (num.Count > 0)
-            {
-                Console.WriteLine(num.Pop());
-            }
+            //while (num.Count > 0)
+            //{
+            //    Console.WriteLine(num.Pop());
+            //}
+
+            // Problem #4
+            Console.Write("Write Something: ");
+            string str = Console.ReadLine();
+
+            Console.WriteLine($"1. Uppercase: {str.ToUpper()}");
+            Console.WriteLine($"2. Convert: {str.Replace("C#", "CSharp")}");
+            Console.WriteLine($"3. Length: {str.Length}");
         }
     }
 }
