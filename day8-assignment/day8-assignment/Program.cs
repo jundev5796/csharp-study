@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -76,13 +77,26 @@ namespace day8_assignment
             //    Console.WriteLine(num.Pop());
             //}
 
-            // Problem #4
-            Console.Write("Write Something: ");
-            string str = Console.ReadLine();
+            //// Problem #4
+            //Console.Write("Write Something: ");
+            //string str = Console.ReadLine();
 
-            Console.WriteLine($"1. Uppercase: {str.ToUpper()}");
-            Console.WriteLine($"2. Convert: {str.Replace("C#", "CSharp")}");
-            Console.WriteLine($"3. Length: {str.Length}");
+            //Console.WriteLine($"1. Uppercase: {str.ToUpper()}");
+            //Console.WriteLine($"2. Convert: {str.Replace("C#", "CSharp")}");
+            //Console.WriteLine($"3. Length: {str.Length}");
+
+            // Problem #5
+            int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            int sum = 0;
+
+            var evenNumbers = numbers.Where(n => n % 2 == 0);
+
+            foreach(var num in evenNumbers)
+            {
+                sum += num;
+                Console.Write($"{num} ");
+            }
+            Console.WriteLine($"\nTotal: {sum}");
         }
     }
 }
