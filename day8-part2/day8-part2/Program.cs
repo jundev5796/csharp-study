@@ -99,16 +99,30 @@ namespace day8_part2
             //sw.Stop();
             //Console.WriteLine($"StringBuilder: {sw.ElapsedMilliseconds}ms");
 
-            // 7. exceptions (dealing with exceptions or errors)
-            // catch errors w/o stack overflow
+            //// 7. exceptions (dealing with exceptions or errors)
+            //// catch errors w/o stack overflow
+            //try
+            //{
+            //    int[] numbers = { 1, 2, 3 };
+            //    Console.WriteLine(numbers[5]); // Error
+            //}
+            //catch(IndexOutOfRangeException ex)
+            //{
+            //    Console.WriteLine($"Error: {ex.Message}");
+            //}
+
+            // 8. finally (runs regardless of exceptions)
             try
             {
-                int[] numbers = { 1, 2, 3 };
-                Console.WriteLine(numbers[5]); // Error
+                int number = int.Parse("NotANumber"); // error
             }
-            catch(IndexOutOfRangeException ex)
+            catch(FormatException ex)
             {
-                Console.WriteLine($"Error: {ex.Message}");
+                Console.WriteLine($"Format Error: {ex.Message}");
+            }
+            finally
+            {
+                Console.WriteLine("Program Runs");
             }
         }
     }
