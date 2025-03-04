@@ -30,16 +30,50 @@ namespace day8_assignment
             //warrior.Strength = 98;
             //warrior.Stat();
 
-            // Problem #2
-            try
+            //// Problem #2
+            //try
+            //{
+            //    Console.Write("정수를 입력하세요: ");
+            //    int num = int.Parse(Console.ReadLine());
+            //    Console.WriteLine($"입력결과: {num}");
+            //}
+            //catch (FormatException ex)
+            //{
+            //    Console.WriteLine("올바른 숫자를 입력하세요!");
+            //}
+
+            // Problem #3
+            List<string> fruits = new List<string>();
+            fruits.Add("사과");
+            fruits.Add("바나나");
+            fruits.Add("포도");
+            Console.WriteLine("과일:");
+
+            foreach(var fruit in fruits)
             {
-                Console.Write("정수를 입력하세요: ");
-                int num = int.Parse(Console.ReadLine());
-                Console.WriteLine($"입력결과: {num}");
+                Console.WriteLine(fruit);
             }
-            catch (FormatException ex)
+
+            Queue<string> jobs = new Queue<string>();
+            jobs.Enqueue("첫 번째 작업");
+            jobs.Enqueue("두 번째 작업");
+            jobs.Enqueue("세 번째 작업");
+            Console.WriteLine("\n작업:");
+
+            while (jobs.Count > 0)
             {
-                Console.WriteLine("올바른 숫자를 입력하세요!");
+                Console.WriteLine(jobs.Dequeue());
+            }
+
+            Stack<int> num = new Stack<int>();
+            num.Push(10);
+            num.Push(20);
+            num.Push(30);
+            Console.WriteLine("\n숫자:");
+
+            while (num.Count > 0)
+            {
+                Console.WriteLine(num.Pop());
             }
         }
     }
