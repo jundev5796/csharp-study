@@ -89,22 +89,31 @@ namespace day8_part4_collection
             //    Console.WriteLine($"{pair.Key} : { pair.Value}");
             //}
 
-            // 5. null
-            // reference types can be null, whereas value types cannot be null by default
+            //// 5. null
+            //// reference types can be null, whereas value types cannot be null by default
+            //string str = null;
+
+            //if (str == null)
+            //{
+            //    Console.WriteLine("str is null");
+            //}
+
+            //int? nullableInt = null;
+
+            //Console.WriteLine(nullableInt.HasValue ? nullableInt.Value.ToString() : "No value");
+
+            //nullableInt = 10;
+
+            //Console.WriteLine(nullableInt.HasValue ? nullableInt.Value.ToString() : "No value");
+
+            // 6. ?? operator (check for null values)
             string str = null;
 
-            if (str == null)
-            {
-                Console.WriteLine("str is null");
-            }
+            Console.WriteLine(str ?? "DefaultValue"); // if str = null, "Default Value"
 
-            int? nullableInt = null;
+            str = "Hello";
 
-            Console.WriteLine(nullableInt.HasValue ? nullableInt.Value.ToString() : "No value");
-
-            nullableInt = 10;
-
-            Console.WriteLine(nullableInt.HasValue ? nullableInt.Value.ToString() : "No value");
+            Console.WriteLine(str?.Length); // if str != null, print length
         }
     }
 }
