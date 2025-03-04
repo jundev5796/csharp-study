@@ -73,31 +73,43 @@ namespace day8_part2
             //sb.Append("World!");
             //Console.WriteLine(sb.ToString());
 
-            // stringbuilder is useful for repetitive actions
-            int iterations = 10000;
+            //// stringbuilder is useful for repetitive actions
+            //int iterations = 10000;
 
-            Stopwatch sw = Stopwatch.StartNew();
+            //Stopwatch sw = Stopwatch.StartNew();
 
-            string text = "";
+            //string text = "";
 
-            for (int i = 0; i < iterations; i++)
+            //for (int i = 0; i < iterations; i++)
+            //{
+            //    text += "a";
+            //}
+
+            //sw.Stop();
+            //Console.WriteLine($"String: {sw.ElapsedMilliseconds}ms");
+
+            //sw.Restart();
+            //StringBuilder sb = new StringBuilder();
+
+            //for (int i = 0; i < iterations; i++)
+            //{
+            //    sb.Append("a");
+            //}
+
+            //sw.Stop();
+            //Console.WriteLine($"StringBuilder: {sw.ElapsedMilliseconds}ms");
+
+            // 7. exceptions (dealing with exceptions or errors)
+            // catch errors w/o stack overflow
+            try
             {
-                text += "a";
+                int[] numbers = { 1, 2, 3 };
+                Console.WriteLine(numbers[5]); // Error
             }
-
-            sw.Stop();
-            Console.WriteLine($"String: {sw.ElapsedMilliseconds}ms");
-
-            sw.Restart();
-            StringBuilder sb = new StringBuilder();
-
-            for (int i = 0; i < iterations; i++)
+            catch(IndexOutOfRangeException ex)
             {
-                sb.Append("a");
+                Console.WriteLine($"Error: {ex.Message}");
             }
-
-            sw.Stop();
-            Console.WriteLine($"StringBuilder: {sw.ElapsedMilliseconds}ms");
         }
     }
 }
