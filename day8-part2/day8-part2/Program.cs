@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -66,11 +67,37 @@ namespace day8_part2
             //Console.WriteLine($"Starts with 'C#': {text.StartsWith("C#")}");
             //Console.WriteLine($"Index of 'is': {text.IndexOf("is")}");
 
-            // 6. stringbuilder class (advanced string options)
-            StringBuilder sb = new StringBuilder("Hello");
-            sb.Append(","); // add 
-            sb.Append("World!");
-            Console.WriteLine(sb.ToString());
+            //// 6. stringbuilder class (advanced string options)
+            //StringBuilder sb = new StringBuilder("Hello");
+            //sb.Append(","); // add 
+            //sb.Append("World!");
+            //Console.WriteLine(sb.ToString());
+
+            // stringbuilder is useful for repetitive actions
+            int iterations = 10000;
+
+            Stopwatch sw = Stopwatch.StartNew();
+
+            string text = "";
+
+            for (int i = 0; i < iterations; i++)
+            {
+                text += "a";
+            }
+
+            sw.Stop();
+            Console.WriteLine($"String: {sw.ElapsedMilliseconds}ms");
+
+            sw.Restart();
+            StringBuilder sb = new StringBuilder();
+
+            for (int i = 0; i < iterations; i++)
+            {
+                sb.Append("a");
+            }
+
+            sw.Stop();
+            Console.WriteLine($"StringBuilder: {sw.ElapsedMilliseconds}ms");
         }
     }
 }
