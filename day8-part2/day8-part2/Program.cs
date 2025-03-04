@@ -18,14 +18,14 @@ namespace day8_part2
             //valueType = 20;
 
             //Console.WriteLine($"ValueType: {valueType}"); // 20
-            //Console.WriteLine($"ReferenceType: {referenceType}"); // 19
+            //Console.WriteLine($"ReferenceType: {referenceType}"); // 10
 
             //// 2. boxing (converts var into ref and vice-versa)
             //int value = 42;
             //object boxed = value; // boxing
             //int unboxed = (int)boxed; // unboxing
 
-            //Console.WriteLine($"Boxed: {boxed}, Unboxed: {unboxed}");
+            //Console.WriteLine($"Boxed: {boxed}, Unboxed: {unboxed}"); // Boxed: 42, Unboxed: 42
 
             //// 3. is (checking if object is a certain type)
             //object obj = "Hello";
@@ -106,7 +106,7 @@ namespace day8_part2
             //    int[] numbers = { 1, 2, 3 };
             //    Console.WriteLine(numbers[5]); // Error
             //}
-            //catch(IndexOutOfRangeException ex)
+            //catch (IndexOutOfRangeException ex)
             //{
             //    Console.WriteLine($"Error: {ex.Message}");
             //}
@@ -116,7 +116,7 @@ namespace day8_part2
             //{
             //    int number = int.Parse("NotANumber"); // error
             //}
-            //catch(FormatException ex)
+            //catch (FormatException ex)
             //{
             //    Console.WriteLine($"Format Error: {ex.Message}");
             //}
@@ -130,7 +130,7 @@ namespace day8_part2
             //{
             //    int number = int.Parse("abc");
             //}
-            //catch(Exception ex)
+            //catch (Exception ex)
             //{
             //    Console.WriteLine($"General Error: {ex.Message}");
             //}
