@@ -9,10 +9,25 @@ namespace day8_part4_collection
 {
     class Program
     {
-        // 1. Generic (accepts all types)
-        class Cup<T>
+        //// 1. Generic (accepts all types)
+        //class Cup<T>
+        //{
+        //    public T Content { get; set; }
+        //}
+
+        // 3. custom collection
+        class SimpleCollection: IEnumerable<int>
         {
-            public T Content { get; set; }
+            private int[] data = { 1, 2, 3, 4, 5 };
+
+            public IEnumerator<int> GetEnumerator()
+            {
+                foreach(var item in data)
+                {
+                    yield return item;
+                }
+            }
+            IEnumerator IEnumerable.GetEnumerator() => GetEnumerator();
         }
 
         static void Main(string[] args)
@@ -39,19 +54,26 @@ namespace day8_part4_collection
             //List<string> names = new List<string> { "Alice", "Bob", "Charlie" };
             //names.Add("Dave");
 
-            //foreach(var name in names)
+            //foreach (var name in names)
             //{
             //    Console.WriteLine(name);
             //}
 
-            // 2. IEnumerator
-            ArrayList list = new ArrayList { "Apple", "Banana", "Cherry" };
+            //// 2. IEnumerator
+            //ArrayList list = new ArrayList { "Apple", "Banana", "Cherry" };
 
-            IEnumerator enumerator = list.GetEnumerator();
+            //IEnumerator enumerator = list.GetEnumerator();
 
-            while (enumerator.MoveNext()) // checking for next iterator
+            //while (enumerator.MoveNext()) // checking for next iterator
+            //{
+            //    Console.WriteLine(enumerator.Current); // output current iterator
+            //}
+
+            var collection = new SimpleCollection();
+
+            foreach(var i in collection)
             {
-                Console.WriteLine(enumerator.Current); // output current iterator
+                Console.WriteLine(i);
             }
         }
     }
