@@ -10,14 +10,21 @@ namespace day8_part2
     {
         static void Main(string[] args)
         {
-            // value/ref types
-            int valueType = 10;
-            object referenceType = valueType; // specifically refers to the "valueType" variable that appears before itself
+            //// 1. value/ref types
+            //int valueType = 10;
+            //object referenceType = valueType; // specifically refers to the "valueType" variable that appears before itself
 
-            valueType = 20;
+            //valueType = 20;
 
-            Console.WriteLine($"ValueType: {valueType}"); // 20
-            Console.WriteLine($"ReferenceType: {referenceType}"); // 19
+            //Console.WriteLine($"ValueType: {valueType}"); // 20
+            //Console.WriteLine($"ReferenceType: {referenceType}"); // 19
+
+            // 2. boxing (converts var into ref and vice-versa)
+            int value = 42;
+            object boxed = value; // boxing
+            int unboxed = (int)boxed; // unboxing
+
+            Console.WriteLine($"Boxed: {boxed}, Unboxed: {unboxed}");
         }
     }
 }
