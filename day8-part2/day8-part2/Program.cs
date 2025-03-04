@@ -111,18 +111,28 @@ namespace day8_part2
             //    Console.WriteLine($"Error: {ex.Message}");
             //}
 
-            // 8. finally (runs regardless of exceptions)
+            //// 8. finally (runs regardless of exceptions)
+            //try
+            //{
+            //    int number = int.Parse("NotANumber"); // error
+            //}
+            //catch(FormatException ex)
+            //{
+            //    Console.WriteLine($"Format Error: {ex.Message}");
+            //}
+            //finally
+            //{
+            //    Console.WriteLine("Program Runs");
+            //}
+
+            // 9. exception class
             try
             {
-                int number = int.Parse("NotANumber"); // error
+                int number = int.Parse("abc");
             }
-            catch(FormatException ex)
+            catch(Exception ex)
             {
-                Console.WriteLine($"Format Error: {ex.Message}");
-            }
-            finally
-            {
-                Console.WriteLine("Program Runs");
+                Console.WriteLine($"General Error: {ex.Message}");
             }
         }
     }
