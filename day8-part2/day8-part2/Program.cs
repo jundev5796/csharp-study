@@ -38,17 +38,28 @@ namespace day8_part2
 
             //Console.WriteLine(str is string);
 
-            // Example
-            object obj = 42;
+            //// Example
+            //object obj = 42;
 
-            if (obj is int number)
-            {
-                Console.WriteLine($"Number: {number}");
-            }
-            else
-            {
-                Console.WriteLine("Not a Number");
-            }
+            //if (obj is int number)
+            //{
+            //    Console.WriteLine($"Number: {number}");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Not a Number");
+            //}
+
+            // 5. string methods
+            string greeting = "Hello";
+            string name = "Alice";
+
+            string message = greeting + "," + name + "!";
+            Console.WriteLine(message); // Hello, Alice
+
+            Console.WriteLine($"Length of name: {name.Length}"); // string length
+            Console.WriteLine($"To Upper: {name.ToUpper()}"); // convert to uppercase
+            Console.WriteLine($"Substring: {name.Substring(1)}"); // part of string
         }
     }
 }
