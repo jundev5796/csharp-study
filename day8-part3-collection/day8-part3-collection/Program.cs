@@ -103,7 +103,7 @@ namespace day8_part3_collection
             //arrayList.Add(3.14); // float
 
             //Console.WriteLine("ArrayList: ");
-            //foreach(var item in arrayList)
+            //foreach (var item in arrayList)
             //{
             //    Console.WriteLine(item);
             //}
@@ -112,7 +112,7 @@ namespace day8_part3_collection
 
             //Console.WriteLine("\nArrayList w/ remove: ");
 
-            //foreach(var item in arrayList)
+            //foreach (var item in arrayList)
             //{
             //    Console.WriteLine(item);
             //}

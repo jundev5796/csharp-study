@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,25 +23,35 @@ namespace day8_part4_collection
             //Console.WriteLine($"CupOfString: {cupOfString.Content}");
             //Console.WriteLine($"cupOfInt: {cupOfInt.Content}");
 
-            // w/ stack
-            Stack<int> stack = new Stack<int>();
+            //// w/ stack
+            //Stack<int> stack = new Stack<int>();
 
-            stack.Push(10);
-            stack.Push(20);
-            stack.Push(30);
+            //stack.Push(10);
+            //stack.Push(20);
+            //stack.Push(30);
 
-            while (stack.Count > 0)
+            //while (stack.Count > 0)
+            //{
+            //    Console.WriteLine(stack.Pop());
+            //}
+
+            //// w/ list
+            //List<string> names = new List<string> { "Alice", "Bob", "Charlie" };
+            //names.Add("Dave");
+
+            //foreach(var name in names)
+            //{
+            //    Console.WriteLine(name);
+            //}
+
+            // 2. IEnumerator
+            ArrayList list = new ArrayList { "Apple", "Banana", "Cherry" };
+
+            IEnumerator enumerator = list.GetEnumerator();
+
+            while (enumerator.MoveNext()) // checking for next iterator
             {
-                Console.WriteLine(stack.Pop());
-            }
-
-            // w/ list
-            List<string> names = new List<string> { "Alice", "Bob", "Charlie" };
-            names.Add("Dave");
-
-            foreach(var name in names)
-            {
-                Console.WriteLine(name);
+                Console.WriteLine(enumerator.Current); // output current iterator
             }
         }
     }
