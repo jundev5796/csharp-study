@@ -58,14 +58,24 @@ namespace day8_part3_collection
             //    Console.WriteLine(i);
             //}
 
-            // 2. stack (LIFO)
-            Stack stack = new Stack();
-            stack.Push(1);
-            stack.Push(2);
-            stack.Push(3);
-            while (stack.Count > 0)
+            //// 2. stack (LIFO)
+            //Stack stack = new Stack();
+            //stack.Push(1);
+            //stack.Push(2);
+            //stack.Push(3);
+            //while (stack.Count > 0)
+            //{
+            //    Console.WriteLine(stack.Pop());
+            //}
+
+            // 3. Queue (FILO)
+            Queue queue = new Queue();
+            queue.Enqueue(1);
+            queue.Enqueue(2);
+            queue.Enqueue(3);
+            while (queue.Count > 0)
             {
-                Console.WriteLine(stack.Pop());
+                Console.WriteLine(queue.Dequeue());
             }
 
         }
