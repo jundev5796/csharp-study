@@ -15,20 +15,20 @@ namespace day8_part4_collection
         //    public T Content { get; set; }
         //}
 
-        // 3. custom collection
-        class SimpleCollection: IEnumerable<int>
-        {
-            private int[] data = { 1, 2, 3, 4, 5 };
+        //// 3. custom collection
+        //class SimpleCollection: IEnumerable<int>
+        //{
+        //    private int[] data = { 1, 2, 3, 4, 5 };
 
-            public IEnumerator<int> GetEnumerator()
-            {
-                foreach(var item in data)
-                {
-                    yield return item;
-                }
-            }
-            IEnumerator IEnumerable.GetEnumerator() => GetEnumerator();
-        }
+        //    public IEnumerator<int> GetEnumerator()
+        //    {
+        //        foreach(var item in data)
+        //        {
+        //            yield return item;
+        //        }
+        //    }
+        //    IEnumerator IEnumerable.GetEnumerator() => GetEnumerator();
+        //}
 
         static void Main(string[] args)
         {
@@ -69,11 +69,24 @@ namespace day8_part4_collection
             //    Console.WriteLine(enumerator.Current); // output current iterator
             //}
 
-            var collection = new SimpleCollection();
+            //// 3.
+            //var collection = new SimpleCollection();
 
-            foreach(var i in collection)
+            //foreach(var i in collection)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+            // 4. dictionary
+            Dictionary<string, int> ages = new Dictionary<string, int>();
+
+            ages["Gold Axe"] = 10;
+            ages["Silver Axe"] = 5;
+            ages["Stone Axe"] = 1;
+            
+            foreach(var pair in ages)
             {
-                Console.WriteLine(i);
+                Console.WriteLine($"{pair.Key} : { pair.Value}");
             }
         }
     }
