@@ -20,12 +20,21 @@ namespace day9_part2_algorithm
 
             // ----------------------------------------------------------------------------------------------------
 
-            // 2. count
-            int[] data = { 2, 4, 6, 8, 10 };
+            //// 2. count
+            //int[] data = { 2, 4, 6, 8, 10 };
 
-            int count = data.Length; // finding the length
+            //int count = data.Length; // finding the length
 
-            Console.WriteLine($"Count: {count}");
+            //Console.WriteLine($"Count: {count}");
+
+            // ----------------------------------------------------------------------------------------------------
+
+            // 3. average
+            float[] data = { 1, 2, 3, 4, 5 };
+
+            double avg = data.Average();
+            
+            Console.WriteLine($"Average: {avg:F2}");
         }
     }
 }
