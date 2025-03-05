@@ -38,13 +38,23 @@ namespace day9_part2_algorithm
 
             // ----------------------------------------------------------------------------------------------------
 
-            // 4. max
+            //// 4. max
+
+            //int[] data = { 10, 3, 5, 2, 8 };
+
+            //int max = data.Max();
+            
+            //Console.WriteLine($"Max: {max}");
+
+            // ----------------------------------------------------------------------------------------------------
+
+            // 5. min
 
             int[] data = { 10, 3, 5, 2, 8 };
 
-            int max = data.Max();
-            
-            Console.WriteLine($"Max: {max}");
+            int min = data.Min();
+
+            Console.WriteLine($"Min: {min}");
         }
     }
 }
