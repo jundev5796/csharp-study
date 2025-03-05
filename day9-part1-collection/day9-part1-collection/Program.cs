@@ -25,22 +25,42 @@ namespace day9_part1_collection
 
             // ----------------------------------------------------------------------------------------------------
 
-            // 2. LINQ method/query
-            int[] nums = { 5, 3, 8, 1 };
-            
-            // method
-            var sortedMethod = nums.OrderBy(n => n);
-            
-            // query
-            var sortedQuery = from n in nums
-                              orderby n
-                              select n;
+            //// 2. LINQ method/query
+            //int[] nums = { 5, 3, 8, 1 };
 
-            Console.WriteLine("Method syntax:");
-            foreach (var n in sortedMethod) Console.WriteLine(n);
+            //// method
+            //var sortedMethod = nums.OrderBy(n => n);
 
-            Console.WriteLine("Query syntax:");
-            foreach (var n in sortedQuery) Console.WriteLine(n);
+            //// query
+            //var sortedQuery = from n in nums
+            //                  orderby n
+            //                  select n;
+
+            //Console.WriteLine("Method syntax:");
+            //foreach (var n in sortedMethod) Console.WriteLine(n);
+
+            //Console.WriteLine("Query syntax:");
+            //foreach (var n in sortedQuery) Console.WriteLine(n);
+
+            // ----------------------------------------------------------------------------------------------------
+
+            // 3. select (change type and sort)
+            string[] words = { "apple", "banana", "cherry" };
+
+            var lengths = words.Select(w => w.Length);
+
+            foreach (var length in lengths)
+            {
+                Console.WriteLine(length);
+            }
+
+            // Example
+            var upperWords = words.Select(w => w.ToUpper());
+
+            foreach (var word in upperWords)
+            {
+                Console.WriteLine(word);
+            }
         }
     }
 }
