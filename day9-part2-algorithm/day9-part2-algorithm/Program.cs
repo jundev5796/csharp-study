@@ -119,14 +119,21 @@ namespace day9_part2_algorithm
             // ----------------------------------------------------------------------------------------------------
 
             // 10. group
+            // 데이터를 특정 기준으로 그룹화하기
+            
+            // 문자열 배열 선언 (과일 이름 리스트)
             string[] fruits = { "apple", "banana", "blueberry", "cherry", "apricot" };
-
-            var groups = fruits.GroupBy(f => f[0]); // 첫 글자로 그룹화
-
+            
+            // LINQ의 GroupBy()를 사용하여 첫 글자를 기준으로 그룹화
+            var groups = fruits.GroupBy(f => f[0]); //첫 글자로 그룹화
+            
+            // 각 그룹을 순회하며 출력
             foreach (var group in groups)
             {
-                Console.WriteLine($"Key: {group.Key}");
+                // 그룹의 Key (첫 글자) 출력
+                Console.WriteLine($"Key : {group.Key}");
 
+                // 해당 그룹에 속한 모든 요소 출력
                 foreach (var item in group)
                 {
                     Console.WriteLine($" {item}");
