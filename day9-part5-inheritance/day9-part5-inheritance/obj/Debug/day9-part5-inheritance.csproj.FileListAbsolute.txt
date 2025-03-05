@@ -1,0 +1,7 @@
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day9-part5-inheritance\day9-part5-inheritance\obj\Debug\day9-part5-inheritance.csproj.AssemblyReference.cache
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day9-part5-inheritance\day9-part5-inheritance\obj\Debug\day9-part5-inheritance.csproj.CoreCompileInputs.cache
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day9-part5-inheritance\day9-part5-inheritance\bin\Debug\day9-part5-inheritance.exe.config
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day9-part5-inheritance\day9-part5-inheritance\bin\Debug\day9-part5-inheritance.exe
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day9-part5-inheritance\day9-part5-inheritance\bin\Debug\day9-part5-inheritance.pdb
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day9-part5-inheritance\day9-part5-inheritance\obj\Debug\day9-part5-inheritance.exe
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day9-part5-inheritance\day9-part5-inheritance\obj\Debug\day9-part5-inheritance.pdb
