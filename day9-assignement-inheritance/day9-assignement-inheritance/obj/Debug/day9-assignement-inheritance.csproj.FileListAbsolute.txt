@@ -1,0 +1,7 @@
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day9-assignement-inheritance\day9-assignement-inheritance\bin\Debug\day9-assignement-inheritance.exe.config
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day9-assignement-inheritance\day9-assignement-inheritance\bin\Debug\day9-assignement-inheritance.exe
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day9-assignement-inheritance\day9-assignement-inheritance\bin\Debug\day9-assignement-inheritance.pdb
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day9-assignement-inheritance\day9-assignement-inheritance\obj\Debug\day9-assignement-inheritance.csproj.AssemblyReference.cache
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day9-assignement-inheritance\day9-assignement-inheritance\obj\Debug\day9-assignement-inheritance.csproj.CoreCompileInputs.cache
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day9-assignement-inheritance\day9-assignement-inheritance\obj\Debug\day9-assignement-inheritance.exe
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day9-assignement-inheritance\day9-assignement-inheritance\obj\Debug\day9-assignement-inheritance.pdb
