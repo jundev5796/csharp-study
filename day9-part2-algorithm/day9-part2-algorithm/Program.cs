@@ -43,18 +43,34 @@ namespace day9_part2_algorithm
             //int[] data = { 10, 3, 5, 2, 8 };
 
             //int max = data.Max();
-            
+
             //Console.WriteLine($"Max: {max}");
 
             // ----------------------------------------------------------------------------------------------------
 
-            // 5. min
+            //// 5. min
 
-            int[] data = { 10, 3, 5, 2, 8 };
+            //int[] data = { 10, 3, 5, 2, 8 };
 
-            int min = data.Min();
+            //int min = data.Min();
 
-            Console.WriteLine($"Min: {min}");
+            //Console.WriteLine($"Min: {min}");
+
+            // ----------------------------------------------------------------------------------------------------
+
+            // 6. near
+
+            int[] data = { 10, 12, 20, 25, 30 };
+            int target = 22;
+            int nearest = data[0];
+
+            foreach (var d in data)
+            {
+                if (Math.Abs(d - target) < Math.Abs(nearest - target))
+                    nearest = d;
+            }
+
+            Console.WriteLine($"Nearest to {target}:{nearest}");
         }
     }
 }
