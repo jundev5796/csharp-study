@@ -1,0 +1,7 @@
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day9-part10-inheritance-example\day9-part10-inheritance-example\bin\Debug\day9-part10-inheritance-example.exe.config
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day9-part10-inheritance-example\day9-part10-inheritance-example\bin\Debug\day9-part10-inheritance-example.exe
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day9-part10-inheritance-example\day9-part10-inheritance-example\bin\Debug\day9-part10-inheritance-example.pdb
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day9-part10-inheritance-example\day9-part10-inheritance-example\obj\Debug\day9-part10-inheritance-example.csproj.AssemblyReference.cache
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day9-part10-inheritance-example\day9-part10-inheritance-example\obj\Debug\day9-part10-inheritance-example.csproj.CoreCompileInputs.cache
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day9-part10-inheritance-example\day9-part10-inheritance-example\obj\Debug\day9-part10-inheritance-example.exe
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day9-part10-inheritance-example\day9-part10-inheritance-example\obj\Debug\day9-part10-inheritance-example.pdb

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\day9-part10-inheritance-example\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C536D2B8-0A20-49E2-BBFD-422E15D46299}|day9-part10-inheritance-example\\day9-part10-inheritance-example.csproj|d:\\game dev\\likelion unity bootcamp\\csharp-study\\day9-part10-inheritance-example\\day9-part10-inheritance-example\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C536D2B8-0A20-49E2-BBFD-422E15D46299}|day9-part10-inheritance-example\\day9-part10-inheritance-example.csproj|solutionrelative:day9-part10-inheritance-example\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\day9-part10-inheritance-example\\day9-part10-inheritance-example\\Program.cs",
+              "RelativeDocumentMoniker": "day9-part10-inheritance-example\\Program.cs",
+              "ToolTip": "D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\day9-part10-inheritance-example\\day9-part10-inheritance-example\\Program.cs",
+              "RelativeToolTip": "day9-part10-inheritance-example\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T05:31:53.224Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
