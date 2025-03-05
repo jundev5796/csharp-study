@@ -29,12 +29,22 @@ namespace day9_part2_algorithm
 
             // ----------------------------------------------------------------------------------------------------
 
-            // 3. average
-            float[] data = { 1, 2, 3, 4, 5 };
+            //// 3. average
+            //float[] data = { 1, 2, 3, 4, 5 };
 
-            double avg = data.Average();
+            //double avg = data.Average();
+
+            //Console.WriteLine($"Average: {avg:F2}");
+
+            // ----------------------------------------------------------------------------------------------------
+
+            // 4. max
+
+            int[] data = { 10, 3, 5, 2, 8 };
+
+            int max = data.Max();
             
-            Console.WriteLine($"Average: {avg:F2}");
+            Console.WriteLine($"Max: {max}");
         }
     }
 }
