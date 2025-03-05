@@ -100,21 +100,38 @@ namespace day9_part2_algorithm
 
             // ----------------------------------------------------------------------------------------------------
 
-            // 9. search
-            int[] data = { 5, 2, 8, 1, 9 };
-            int target = 8;
-            int index = -1;
+            //// 9. search
+            //int[] data = { 5, 2, 8, 1, 9 };
+            //int target = 8;
+            //int index = -1;
 
-            for (int i = 0; i < data.Length; i++)
+            //for (int i = 0; i < data.Length; i++)
+            //{
+            //    if (data[i] == target)
+            //    {
+            //        index = i;
+            //        break;
+            //    }
+            //}
+
+            //Console.WriteLine(index >= 0 ? $"Found at index {index}" : "Not found");
+
+            // ----------------------------------------------------------------------------------------------------
+
+            // 10. group
+            string[] fruits = { "apple", "banana", "blueberry", "cherry", "apricot" };
+
+            var groups = fruits.GroupBy(f => f[0]); // 첫 글자로 그룹화
+
+            foreach (var group in groups)
             {
-                if (data[i] == target)
+                Console.WriteLine($"Key: {group.Key}");
+
+                foreach (var item in group)
                 {
-                    index = i;
-                    break;
+                    Console.WriteLine($" {item}");
                 }
             }
-
-            Console.WriteLine(index >= 0 ? $"Found at index {index}" : "Not found");
         }
     }
 }
