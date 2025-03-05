@@ -92,11 +92,29 @@ namespace day9_part2_algorithm
 
             // ----------------------------------------------------------------------------------------------------
 
-            // 8. sort
-            int[] data = { 5, 2, 8, 1, 9 };
-            Array.Sort(data);
+            //// 8. sort
+            //int[] data = { 5, 2, 8, 1, 9 };
+            //Array.Sort(data);
 
-            foreach (var d in data) Console.WriteLine(d);
+            //foreach (var d in data) Console.WriteLine(d);
+
+            // ----------------------------------------------------------------------------------------------------
+
+            // 9. search
+            int[] data = { 5, 2, 8, 1, 9 };
+            int target = 8;
+            int index = -1;
+
+            for (int i = 0; i < data.Length; i++)
+            {
+                if (data[i] == target)
+                {
+                    index = i;
+                    break;
+                }
+            }
+
+            Console.WriteLine(index >= 0 ? $"Found at index {index}" : "Not found");
         }
     }
 }
