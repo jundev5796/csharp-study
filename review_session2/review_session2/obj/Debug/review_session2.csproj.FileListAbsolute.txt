@@ -1,0 +1,7 @@
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\review_session2\review_session2\bin\Debug\review_session2.exe.config
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\review_session2\review_session2\bin\Debug\review_session2.exe
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\review_session2\review_session2\bin\Debug\review_session2.pdb
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\review_session2\review_session2\obj\Debug\review_session2.csproj.AssemblyReference.cache
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\review_session2\review_session2\obj\Debug\review_session2.csproj.CoreCompileInputs.cache
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\review_session2\review_session2\obj\Debug\review_session2.exe
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\review_session2\review_session2\obj\Debug\review_session2.pdb
