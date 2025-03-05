@@ -58,19 +58,45 @@ namespace day9_part2_algorithm
 
             // ----------------------------------------------------------------------------------------------------
 
-            // 6. near
+            //// 6. near
 
-            int[] data = { 10, 12, 20, 25, 30 };
-            int target = 22;
-            int nearest = data[0];
+            //int[] data = { 10, 12, 20, 25, 30 };
+            //int target = 22;
+            //int nearest = data[0];
 
-            foreach (var d in data)
-            {
-                if (Math.Abs(d - target) < Math.Abs(nearest - target))
-                    nearest = d;
-            }
+            //foreach (var d in data)
+            //{
+            //    if (Math.Abs(d - target) < Math.Abs(nearest - target))
+            //        nearest = d;
+            //}
 
-            Console.WriteLine($"Nearest to {target}:{nearest}");
+            //Console.WriteLine($"Nearest to {target}:{nearest}");
+
+            // ----------------------------------------------------------------------------------------------------
+
+            //// 7. rank
+            //int[] scores = { 90, 70, 50, 70, 60 };
+
+            //for (int i = 0; i < scores.Length; i++)
+            //{
+            //    int rank = 1;
+
+            //    for (int j = 0; j < scores.Length; j++)
+            //    {
+            //        if (scores[j] > scores[i])
+            //            rank++;
+            //    }
+
+            //    Console.WriteLine($"Score: {scores[i]}, Rank: {rank}");
+            //}
+
+            // ----------------------------------------------------------------------------------------------------
+
+            // 8. sort
+            int[] data = { 5, 2, 8, 1, 9 };
+            Array.Sort(data);
+
+            foreach (var d in data) Console.WriteLine(d);
         }
     }
 }
