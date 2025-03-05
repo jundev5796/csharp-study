@@ -1,0 +1,7 @@
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day9-part2-algorithm\day9-part2-algorithm\bin\Debug\day9-part2-algorithm.exe.config
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day9-part2-algorithm\day9-part2-algorithm\bin\Debug\day9-part2-algorithm.exe
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day9-part2-algorithm\day9-part2-algorithm\bin\Debug\day9-part2-algorithm.pdb
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day9-part2-algorithm\day9-part2-algorithm\obj\Debug\day9-part2-algorithm.csproj.AssemblyReference.cache
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day9-part2-algorithm\day9-part2-algorithm\obj\Debug\day9-part2-algorithm.csproj.CoreCompileInputs.cache
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day9-part2-algorithm\day9-part2-algorithm\obj\Debug\day9-part2-algorithm.exe
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day9-part2-algorithm\day9-part2-algorithm\obj\Debug\day9-part2-algorithm.pdb
