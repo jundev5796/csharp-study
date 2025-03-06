@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\day10-part9\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5D29EE32-B0EA-4659-801F-DDA251B552E6}|day10-part9\\day10-part9.csproj|d:\\game dev\\likelion unity bootcamp\\csharp-study\\day10-part9\\day10-part9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D29EE32-B0EA-4659-801F-DDA251B552E6}|day10-part9\\day10-part9.csproj|solutionrelative:day10-part9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D29EE32-B0EA-4659-801F-DDA251B552E6}|day10-part9\\day10-part9.csproj|d:\\game dev\\likelion unity bootcamp\\csharp-study\\day10-part9\\day10-part9\\gamecharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D29EE32-B0EA-4659-801F-DDA251B552E6}|day10-part9\\day10-part9.csproj|solutionrelative:day10-part9\\gamecharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D29EE32-B0EA-4659-801F-DDA251B552E6}|day10-part9\\day10-part9.csproj|d:\\game dev\\likelion unity bootcamp\\csharp-study\\day10-part9\\day10-part9\\warrior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D29EE32-B0EA-4659-801F-DDA251B552E6}|day10-part9\\day10-part9.csproj|solutionrelative:day10-part9\\warrior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D29EE32-B0EA-4659-801F-DDA251B552E6}|day10-part9\\day10-part9.csproj|d:\\game dev\\likelion unity bootcamp\\csharp-study\\day10-part9\\day10-part9\\mage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D29EE32-B0EA-4659-801F-DDA251B552E6}|day10-part9\\day10-part9.csproj|solutionrelative:day10-part9\\mage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Mage.cs",
+              "DocumentMoniker": "D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\day10-part9\\day10-part9\\Mage.cs",
+              "RelativeDocumentMoniker": "day10-part9\\Mage.cs",
+              "ToolTip": "D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\day10-part9\\day10-part9\\Mage.cs",
+              "RelativeToolTip": "day10-part9\\Mage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T02:34:12.292Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Warrior.cs",
+              "DocumentMoniker": "D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\day10-part9\\day10-part9\\Warrior.cs",
+              "RelativeDocumentMoniker": "day10-part9\\Warrior.cs",
+              "ToolTip": "D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\day10-part9\\day10-part9\\Warrior.cs",
+              "RelativeToolTip": "day10-part9\\Warrior.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T02:42:09.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameCharacter.cs",
+              "DocumentMoniker": "D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\day10-part9\\day10-part9\\GameCharacter.cs",
+              "RelativeDocumentMoniker": "day10-part9\\GameCharacter.cs",
+              "ToolTip": "D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\day10-part9\\day10-part9\\GameCharacter.cs*",
+              "RelativeToolTip": "day10-part9\\GameCharacter.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T02:25:16.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\day10-part9\\day10-part9\\Program.cs",
+              "RelativeDocumentMoniker": "day10-part9\\Program.cs",
+              "ToolTip": "D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\day10-part9\\day10-part9\\Program.cs*",
+              "RelativeToolTip": "day10-part9\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T02:17:08.675Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
