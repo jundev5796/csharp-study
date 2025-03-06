@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\day10-part6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{469B84DF-2291-4D7A-8FF8-2DDE78AF60BA}|day10-part6\\day10-part6.csproj|d:\\game dev\\likelion unity bootcamp\\csharp-study\\day10-part6\\day10-part6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{469B84DF-2291-4D7A-8FF8-2DDE78AF60BA}|day10-part6\\day10-part6.csproj|solutionrelative:day10-part6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\day10-part6\\day10-part6\\Program.cs",
+              "RelativeDocumentMoniker": "day10-part6\\Program.cs",
+              "ToolTip": "D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\day10-part6\\day10-part6\\Program.cs",
+              "RelativeToolTip": "day10-part6\\Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAzwCUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T01:33:17.273Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
