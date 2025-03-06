@@ -15,12 +15,23 @@ namespace day10_part5
             x++;
         }
 
+        // out은 반환이 여러개일때 유용하다
+        static void OutFunc(int a, int b, out int x, out int y)
+        {
+            x = a;
+            y = b;
+        }
+
         static void Main(string[] args)
         {
             int a = 10;
+            int b = 20;
             Increase(ref a);
-
             Console.WriteLine("Value A: " + a); // value connects without return
+
+            int x, y;
+            OutFunc(a, b, out x, out y);
+            Console.WriteLine("x: " + x + " y: " + y);
         }
     }
 }
