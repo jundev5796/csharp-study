@@ -7,15 +7,15 @@
       "RelativeMoniker": "D:0:0:{5D29EE32-B0EA-4659-801F-DDA251B552E6}|day10-part9\\day10-part9.csproj|solutionrelative:day10-part9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D29EE32-B0EA-4659-801F-DDA251B552E6}|day10-part9\\day10-part9.csproj|d:\\game dev\\likelion unity bootcamp\\csharp-study\\day10-part9\\day10-part9\\gamecharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D29EE32-B0EA-4659-801F-DDA251B552E6}|day10-part9\\day10-part9.csproj|solutionrelative:day10-part9\\gamecharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D29EE32-B0EA-4659-801F-DDA251B552E6}|day10-part9\\day10-part9.csproj|d:\\game dev\\likelion unity bootcamp\\csharp-study\\day10-part9\\day10-part9\\warrior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5D29EE32-B0EA-4659-801F-DDA251B552E6}|day10-part9\\day10-part9.csproj|D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\day10-part9\\day10-part9\\warrior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D29EE32-B0EA-4659-801F-DDA251B552E6}|day10-part9\\day10-part9.csproj|solutionrelative:day10-part9\\warrior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D29EE32-B0EA-4659-801F-DDA251B552E6}|day10-part9\\day10-part9.csproj|d:\\game dev\\likelion unity bootcamp\\csharp-study\\day10-part9\\day10-part9\\mage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5D29EE32-B0EA-4659-801F-DDA251B552E6}|day10-part9\\day10-part9.csproj|D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\day10-part9\\day10-part9\\gamecharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D29EE32-B0EA-4659-801F-DDA251B552E6}|day10-part9\\day10-part9.csproj|solutionrelative:day10-part9\\gamecharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D29EE32-B0EA-4659-801F-DDA251B552E6}|day10-part9\\day10-part9.csproj|D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\day10-part9\\day10-part9\\mage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D29EE32-B0EA-4659-801F-DDA251B552E6}|day10-part9\\day10-part9.csproj|solutionrelative:day10-part9\\mage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "day10-part9\\Mage.cs",
               "ToolTip": "D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\day10-part9\\day10-part9\\Mage.cs",
               "RelativeToolTip": "day10-part9\\Mage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T02:34:12.292Z",
               "IsPinned": true,
@@ -44,7 +44,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Warrior.cs",
               "DocumentMoniker": "D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\day10-part9\\day10-part9\\Warrior.cs",
               "RelativeDocumentMoniker": "day10-part9\\Warrior.cs",
@@ -57,7 +57,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "GameCharacter.cs",
               "DocumentMoniker": "D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\day10-part9\\day10-part9\\GameCharacter.cs",
               "RelativeDocumentMoniker": "day10-part9\\GameCharacter.cs",
@@ -76,7 +76,7 @@
               "RelativeDocumentMoniker": "day10-part9\\Program.cs",
               "ToolTip": "D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\day10-part9\\day10-part9\\Program.cs",
               "RelativeToolTip": "day10-part9\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T02:17:08.675Z",
               "EditorCaption": ""

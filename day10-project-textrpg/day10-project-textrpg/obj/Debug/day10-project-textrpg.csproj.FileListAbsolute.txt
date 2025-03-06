@@ -1,0 +1,7 @@
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day10-project-textrpg\day10-project-textrpg\bin\Debug\day10-project-textrpg.exe.config
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day10-project-textrpg\day10-project-textrpg\bin\Debug\day10-project-textrpg.exe
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day10-project-textrpg\day10-project-textrpg\bin\Debug\day10-project-textrpg.pdb
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day10-project-textrpg\day10-project-textrpg\obj\Debug\day10-project-textrpg.csproj.AssemblyReference.cache
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day10-project-textrpg\day10-project-textrpg\obj\Debug\day10-project-textrpg.csproj.CoreCompileInputs.cache
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day10-project-textrpg\day10-project-textrpg\obj\Debug\day10-project-textrpg.exe
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day10-project-textrpg\day10-project-textrpg\obj\Debug\day10-project-textrpg.pdb
