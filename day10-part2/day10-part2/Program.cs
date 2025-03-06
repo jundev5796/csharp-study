@@ -8,7 +8,17 @@ namespace day10_part2
 {
     class Person
     {
-        public string name; // field: a space that contains class data
+        private string name; // field: a space that contains class data
+        
+        public void SetName(string n)
+        {
+            name = n;
+        }
+
+        public string GetName()
+        {
+            return name;
+        }
     }
 
     class Program
@@ -16,8 +26,8 @@ namespace day10_part2
         static void Main(string[] args)
         {
             Person p = new Person(); // instance
-            p.name = "Alice"; // data inside field
-            Console.WriteLine(p.name);
+            p.SetName("John"); // data inside field
+            Console.WriteLine(p.GetName());
         }
     }
 }
