@@ -1,0 +1,7 @@
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day10-assignment-TEXTRPG\day10-assignment-TEXTRPG\bin\Debug\day10-assignment-TEXTRPG.exe.config
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day10-assignment-TEXTRPG\day10-assignment-TEXTRPG\bin\Debug\day10-assignment-TEXTRPG.exe
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day10-assignment-TEXTRPG\day10-assignment-TEXTRPG\bin\Debug\day10-assignment-TEXTRPG.pdb
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day10-assignment-TEXTRPG\day10-assignment-TEXTRPG\obj\Debug\day10-assignment-TEXTRPG.csproj.AssemblyReference.cache
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day10-assignment-TEXTRPG\day10-assignment-TEXTRPG\obj\Debug\day10-assignment-TEXTRPG.csproj.CoreCompileInputs.cache
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day10-assignment-TEXTRPG\day10-assignment-TEXTRPG\obj\Debug\day10-assignment-TEXTRPG.exe
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day10-assignment-TEXTRPG\day10-assignment-TEXTRPG\obj\Debug\day10-assignment-TEXTRPG.pdb
