@@ -1,0 +1,7 @@
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\[day11-test] TextRPG\[day11-test] TextRPG\bin\Debug\[day11-test] TextRPG.exe.config
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\[day11-test] TextRPG\[day11-test] TextRPG\bin\Debug\[day11-test] TextRPG.exe
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\[day11-test] TextRPG\[day11-test] TextRPG\bin\Debug\[day11-test] TextRPG.pdb
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\[day11-test] TextRPG\[day11-test] TextRPG\obj\Debug\[day11-test] TextRPG.csproj.AssemblyReference.cache
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\[day11-test] TextRPG\[day11-test] TextRPG\obj\Debug\[day11-test] TextRPG.csproj.CoreCompileInputs.cache
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\[day11-test] TextRPG\[day11-test] TextRPG\obj\Debug\[day11-test] TextRPG.exe
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\[day11-test] TextRPG\[day11-test] TextRPG\obj\Debug\[day11-test] TextRPG.pdb
