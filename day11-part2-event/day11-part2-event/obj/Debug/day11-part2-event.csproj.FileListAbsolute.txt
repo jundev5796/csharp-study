@@ -1,0 +1,7 @@
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day11-part2-event\day11-part2-event\bin\Debug\day11-part2-event.exe.config
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day11-part2-event\day11-part2-event\bin\Debug\day11-part2-event.exe
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day11-part2-event\day11-part2-event\bin\Debug\day11-part2-event.pdb
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day11-part2-event\day11-part2-event\obj\Debug\day11-part2-event.csproj.AssemblyReference.cache
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day11-part2-event\day11-part2-event\obj\Debug\day11-part2-event.csproj.CoreCompileInputs.cache
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day11-part2-event\day11-part2-event\obj\Debug\day11-part2-event.exe
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day11-part2-event\day11-part2-event\obj\Debug\day11-part2-event.pdb
