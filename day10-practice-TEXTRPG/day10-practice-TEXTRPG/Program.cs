@@ -10,6 +10,9 @@ namespace day10_practice_TEXTRPG
     {
         static void Main(string[] args)
         {
+            MainGame mainGame = new MainGame();
+            mainGame.Initialize();
+            mainGame.Progress();
         }
     }
 }

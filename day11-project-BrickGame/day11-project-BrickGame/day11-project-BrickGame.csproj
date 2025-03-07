@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0390DE83-98C6-4923-B305-3452620AF8E6}</ProjectGuid>
+    <ProjectGuid>{A1E936B7-74CF-4B84-A936-A85CFC153DE2}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>day10_practice_TEXTRPG</RootNamespace>
-    <AssemblyName>day10-practice-TEXTRPG</AssemblyName>
+    <RootNamespace>day11_project_BrickGame</RootNamespace>
+    <AssemblyName>day11-project-BrickGame</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Field.cs" />
-    <Compile Include="INFO.cs" />
-    <Compile Include="MainGame.cs" />
-    <Compile Include="Monster.cs" />
-    <Compile Include="Player.cs" />
+    <Compile Include="Ball.cs" />
+    <Compile Include="BALLDATA.cs" />
+    <Compile Include="Bar.cs" />
+    <Compile Include="BARDATA.cs" />
+    <Compile Include="GameManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

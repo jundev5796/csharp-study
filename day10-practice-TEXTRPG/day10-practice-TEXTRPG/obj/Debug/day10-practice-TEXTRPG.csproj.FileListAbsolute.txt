@@ -1,0 +1,7 @@
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day10-practice-TEXTRPG\day10-practice-TEXTRPG\bin\Debug\day10-practice-TEXTRPG.exe.config
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day10-practice-TEXTRPG\day10-practice-TEXTRPG\bin\Debug\day10-practice-TEXTRPG.exe
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day10-practice-TEXTRPG\day10-practice-TEXTRPG\bin\Debug\day10-practice-TEXTRPG.pdb
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day10-practice-TEXTRPG\day10-practice-TEXTRPG\obj\Debug\day10-practice-TEXTRPG.csproj.AssemblyReference.cache
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day10-practice-TEXTRPG\day10-practice-TEXTRPG\obj\Debug\day10-practice-TEXTRPG.csproj.CoreCompileInputs.cache
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day10-practice-TEXTRPG\day10-practice-TEXTRPG\obj\Debug\day10-practice-TEXTRPG.exe
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day10-practice-TEXTRPG\day10-practice-TEXTRPG\obj\Debug\day10-practice-TEXTRPG.pdb

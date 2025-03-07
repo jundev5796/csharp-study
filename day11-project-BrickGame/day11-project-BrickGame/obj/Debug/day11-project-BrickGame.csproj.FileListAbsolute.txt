@@ -1,0 +1,7 @@
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day11-project-BrickGame\day11-project-BrickGame\bin\Debug\day11-project-BrickGame.exe.config
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day11-project-BrickGame\day11-project-BrickGame\bin\Debug\day11-project-BrickGame.exe
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day11-project-BrickGame\day11-project-BrickGame\bin\Debug\day11-project-BrickGame.pdb
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day11-project-BrickGame\day11-project-BrickGame\obj\Debug\day11-project-BrickGame.csproj.AssemblyReference.cache
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day11-project-BrickGame\day11-project-BrickGame\obj\Debug\day11-project-BrickGame.csproj.CoreCompileInputs.cache
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day11-project-BrickGame\day11-project-BrickGame\obj\Debug\day11-project-BrickGame.exe
+D:\Game Dev\LikeLion Unity Bootcamp\csharp-study\day11-project-BrickGame\day11-project-BrickGame\obj\Debug\day11-project-BrickGame.pdb
