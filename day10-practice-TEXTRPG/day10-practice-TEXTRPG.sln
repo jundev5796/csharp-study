@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35818.85 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "day10-practice-TEXTRPG", "day10-practice-TEXTRPG\day10-practice-TEXTRPG.csproj", "{0390DE83-98C6-4923-B305-3452620AF8E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0390DE83-98C6-4923-B305-3452620AF8E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0390DE83-98C6-4923-B305-3452620AF8E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0390DE83-98C6-4923-B305-3452620AF8E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0390DE83-98C6-4923-B305-3452620AF8E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1BF53F65-28FC-4050-BCA8-E02F87755709}
+	EndGlobalSection
+EndGlobal
