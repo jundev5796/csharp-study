@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\day10-project-textrpg\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6938C17D-87D1-425B-8EC0-E65061B90DBE}|day10-project-textrpg\\day10-project-textrpg.csproj|d:\\game dev\\likelion unity bootcamp\\csharp-study\\day10-project-textrpg\\day10-project-textrpg\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6938C17D-87D1-425B-8EC0-E65061B90DBE}|day10-project-textrpg\\day10-project-textrpg.csproj|solutionrelative:day10-project-textrpg\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6938C17D-87D1-425B-8EC0-E65061B90DBE}|day10-project-textrpg\\day10-project-textrpg.csproj|D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\day10-project-textrpg\\day10-project-textrpg\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6938C17D-87D1-425B-8EC0-E65061B90DBE}|day10-project-textrpg\\day10-project-textrpg.csproj|solutionrelative:day10-project-textrpg\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6938C17D-87D1-425B-8EC0-E65061B90DBE}|day10-project-textrpg\\day10-project-textrpg.csproj|D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\day10-project-textrpg\\day10-project-textrpg\\maingame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6938C17D-87D1-425B-8EC0-E65061B90DBE}|day10-project-textrpg\\day10-project-textrpg.csproj|solutionrelative:day10-project-textrpg\\maingame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6938C17D-87D1-425B-8EC0-E65061B90DBE}|day10-project-textrpg\\day10-project-textrpg.csproj|D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\day10-project-textrpg\\day10-project-textrpg\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,6 +17,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{6938C17D-87D1-425B-8EC0-E65061B90DBE}|day10-project-textrpg\\day10-project-textrpg.csproj|D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\day10-project-textrpg\\day10-project-textrpg\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6938C17D-87D1-425B-8EC0-E65061B90DBE}|day10-project-textrpg\\day10-project-textrpg.csproj|solutionrelative:day10-project-textrpg\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6938C17D-87D1-425B-8EC0-E65061B90DBE}|day10-project-textrpg\\day10-project-textrpg.csproj|D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\day10-project-textrpg\\day10-project-textrpg\\maingame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6938C17D-87D1-425B-8EC0-E65061B90DBE}|day10-project-textrpg\\day10-project-textrpg.csproj|solutionrelative:day10-project-textrpg\\maingame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6938C17D-87D1-425B-8EC0-E65061B90DBE}|day10-project-textrpg\\day10-project-textrpg.csproj|d:\\game dev\\likelion unity bootcamp\\csharp-study\\day10-project-textrpg\\day10-project-textrpg\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6938C17D-87D1-425B-8EC0-E65061B90DBE}|day10-project-textrpg\\day10-project-textrpg.csproj|solutionrelative:day10-project-textrpg\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,50 +34,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Field.cs",
               "DocumentMoniker": "D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\day10-project-textrpg\\day10-project-textrpg\\Field.cs",
               "RelativeDocumentMoniker": "day10-project-textrpg\\Field.cs",
               "ToolTip": "D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\day10-project-textrpg\\day10-project-textrpg\\Field.cs",
               "RelativeToolTip": "day10-project-textrpg\\Field.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAgwEMAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T05:02:50.354Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Monster.cs",
               "DocumentMoniker": "D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\day10-project-textrpg\\day10-project-textrpg\\Monster.cs",
               "RelativeDocumentMoniker": "day10-project-textrpg\\Monster.cs",
               "ToolTip": "D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\day10-project-textrpg\\day10-project-textrpg\\Monster.cs",
               "RelativeToolTip": "day10-project-textrpg\\Monster.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T05:03:54.83Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Player.cs",
               "DocumentMoniker": "D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\day10-project-textrpg\\day10-project-textrpg\\Player.cs",
               "RelativeDocumentMoniker": "day10-project-textrpg\\Player.cs",
               "ToolTip": "D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\day10-project-textrpg\\day10-project-textrpg\\Player.cs",
               "RelativeToolTip": "day10-project-textrpg\\Player.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACoAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T04:12:59.473Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "INFO.cs",
               "DocumentMoniker": "D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\day10-project-textrpg\\day10-project-textrpg\\INFO.cs",
               "RelativeDocumentMoniker": "day10-project-textrpg\\INFO.cs",
@@ -90,20 +90,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "MainGame.cs",
               "DocumentMoniker": "D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\day10-project-textrpg\\day10-project-textrpg\\MainGame.cs",
               "RelativeDocumentMoniker": "day10-project-textrpg\\MainGame.cs",
               "ToolTip": "D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\day10-project-textrpg\\day10-project-textrpg\\MainGame.cs",
               "RelativeToolTip": "day10-project-textrpg\\MainGame.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwBsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T04:31:49.112Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\day10-project-textrpg\\day10-project-textrpg\\Program.cs",
               "RelativeDocumentMoniker": "day10-project-textrpg\\Program.cs",
