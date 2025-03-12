@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\review-session6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{29E2E743-4413-4B44-AADD-51A4D7E9F2AD}|review-session6\\review-session6.csproj|D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\review-session6\\review-session6\\snackbag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29E2E743-4413-4B44-AADD-51A4D7E9F2AD}|review-session6\\review-session6.csproj|solutionrelative:review-session6\\snackbag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29E2E743-4413-4B44-AADD-51A4D7E9F2AD}|review-session6\\review-session6.csproj|d:\\game dev\\likelion unity bootcamp\\learning\\csharp-study\\review-session6\\review-session6\\snackbagmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29E2E743-4413-4B44-AADD-51A4D7E9F2AD}|review-session6\\review-session6.csproj|solutionrelative:review-session6\\snackbagmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29E2E743-4413-4B44-AADD-51A4D7E9F2AD}|review-session6\\review-session6.csproj|D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\review-session6\\review-session6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29E2E743-4413-4B44-AADD-51A4D7E9F2AD}|review-session6\\review-session6.csproj|solutionrelative:review-session6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29E2E743-4413-4B44-AADD-51A4D7E9F2AD}|review-session6\\review-session6.csproj|D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\review-session6\\review-session6\\snackunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29E2E743-4413-4B44-AADD-51A4D7E9F2AD}|review-session6\\review-session6.csproj|solutionrelative:review-session6\\snackunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29E2E743-4413-4B44-AADD-51A4D7E9F2AD}|review-session6\\review-session6.csproj|D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\review-session6\\review-session6\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29E2E743-4413-4B44-AADD-51A4D7E9F2AD}|review-session6\\review-session6.csproj|solutionrelative:review-session6\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SnackUnit.cs",
+              "DocumentMoniker": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\review-session6\\review-session6\\SnackUnit.cs",
+              "RelativeDocumentMoniker": "review-session6\\SnackUnit.cs",
+              "ToolTip": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\review-session6\\review-session6\\SnackUnit.cs",
+              "RelativeToolTip": "review-session6\\SnackUnit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T10:17:57.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SnackBag.cs",
+              "DocumentMoniker": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\review-session6\\review-session6\\SnackBag.cs",
+              "RelativeDocumentMoniker": "review-session6\\SnackBag.cs",
+              "ToolTip": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\review-session6\\review-session6\\SnackBag.cs",
+              "RelativeToolTip": "review-session6\\SnackBag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T10:17:25.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SnackBagManager.cs",
+              "DocumentMoniker": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\review-session6\\review-session6\\SnackBagManager.cs",
+              "RelativeDocumentMoniker": "review-session6\\SnackBagManager.cs",
+              "ToolTip": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\review-session6\\review-session6\\SnackBagManager.cs",
+              "RelativeToolTip": "review-session6\\SnackBagManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T10:16:33.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\review-session6\\review-session6\\Customer.cs",
+              "RelativeDocumentMoniker": "review-session6\\Customer.cs",
+              "ToolTip": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\review-session6\\review-session6\\Customer.cs",
+              "RelativeToolTip": "review-session6\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T10:15:36.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\review-session6\\review-session6\\Program.cs",
+              "RelativeDocumentMoniker": "review-session6\\Program.cs",
+              "ToolTip": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\review-session6\\review-session6\\Program.cs",
+              "RelativeToolTip": "review-session6\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T10:14:14.278Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

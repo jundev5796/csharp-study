@@ -1,30 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\[day11-test] TextRPG\\",
+  "WorkspaceRootPath": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\[day11-test] TextRPG\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{002CC5DC-8B2D-434C-B1E3-71A359683234}|[day11-test] TextRPG\\[day11-test] TextRPG.csproj|d:\\game dev\\likelion unity bootcamp\\csharp-study\\[day11-test] textrpg\\[day11-test] textrpg\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{002CC5DC-8B2D-434C-B1E3-71A359683234}|[day11-test] TextRPG\\[day11-test] TextRPG.csproj|solutionrelative:[day11-test] textrpg\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{002CC5DC-8B2D-434C-B1E3-71A359683234}|[day11-test] TextRPG\\[day11-test] TextRPG.csproj|D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\[day11-test] TextRPG\\[day11-test] textrpg\\maingame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{002CC5DC-8B2D-434C-B1E3-71A359683234}|[day11-test] TextRPG\\[day11-test] TextRPG.csproj|solutionrelative:[day11-test] textrpg\\maingame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{002CC5DC-8B2D-434C-B1E3-71A359683234}|[day11-test] TextRPG\\[day11-test] TextRPG.csproj|d:\\game dev\\likelion unity bootcamp\\csharp-study\\[day11-test] textrpg\\[day11-test] textrpg\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{002CC5DC-8B2D-434C-B1E3-71A359683234}|[day11-test] TextRPG\\[day11-test] TextRPG.csproj|solutionrelative:[day11-test] textrpg\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{002CC5DC-8B2D-434C-B1E3-71A359683234}|[day11-test] TextRPG\\[day11-test] TextRPG.csproj|d:\\game dev\\likelion unity bootcamp\\csharp-study\\[day11-test] textrpg\\[day11-test] textrpg\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{002CC5DC-8B2D-434C-B1E3-71A359683234}|[day11-test] TextRPG\\[day11-test] TextRPG.csproj|solutionrelative:[day11-test] textrpg\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{002CC5DC-8B2D-434C-B1E3-71A359683234}|[day11-test] TextRPG\\[day11-test] TextRPG.csproj|d:\\game dev\\likelion unity bootcamp\\csharp-study\\[day11-test] textrpg\\[day11-test] textrpg\\info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{002CC5DC-8B2D-434C-B1E3-71A359683234}|[day11-test] TextRPG\\[day11-test] TextRPG.csproj|solutionrelative:[day11-test] textrpg\\info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{002CC5DC-8B2D-434C-B1E3-71A359683234}|[day11-test] TextRPG\\[day11-test] TextRPG.csproj|d:\\game dev\\likelion unity bootcamp\\csharp-study\\[day11-test] textrpg\\[day11-test] textrpg\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{002CC5DC-8B2D-434C-B1E3-71A359683234}|[day11-test] TextRPG\\[day11-test] TextRPG.csproj|D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\[day11-test] TextRPG\\[day11-test] textrpg\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{002CC5DC-8B2D-434C-B1E3-71A359683234}|[day11-test] TextRPG\\[day11-test] TextRPG.csproj|solutionrelative:[day11-test] textrpg\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{002CC5DC-8B2D-434C-B1E3-71A359683234}|[day11-test] TextRPG\\[day11-test] TextRPG.csproj|d:\\game dev\\likelion unity bootcamp\\csharp-study\\[day11-test] textrpg\\[day11-test] textrpg\\maingame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{002CC5DC-8B2D-434C-B1E3-71A359683234}|[day11-test] TextRPG\\[day11-test] TextRPG.csproj|solutionrelative:[day11-test] textrpg\\maingame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{002CC5DC-8B2D-434C-B1E3-71A359683234}|[day11-test] TextRPG\\[day11-test] TextRPG.csproj|D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\[day11-test] TextRPG\\[day11-test] textrpg\\info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{002CC5DC-8B2D-434C-B1E3-71A359683234}|[day11-test] TextRPG\\[day11-test] TextRPG.csproj|solutionrelative:[day11-test] textrpg\\info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{002CC5DC-8B2D-434C-B1E3-71A359683234}|[day11-test] TextRPG\\[day11-test] TextRPG.csproj|D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\[day11-test] TextRPG\\[day11-test] textrpg\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{002CC5DC-8B2D-434C-B1E3-71A359683234}|[day11-test] TextRPG\\[day11-test] TextRPG.csproj|solutionrelative:[day11-test] textrpg\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{002CC5DC-8B2D-434C-B1E3-71A359683234}|[day11-test] TextRPG\\[day11-test] TextRPG.csproj|D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\[day11-test] TextRPG\\[day11-test] textrpg\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{002CC5DC-8B2D-434C-B1E3-71A359683234}|[day11-test] TextRPG\\[day11-test] TextRPG.csproj|solutionrelative:[day11-test] textrpg\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{002CC5DC-8B2D-434C-B1E3-71A359683234}|[day11-test] TextRPG\\[day11-test] TextRPG.csproj|d:\\game dev\\likelion unity bootcamp\\learning\\csharp-study\\[day11-test] textrpg\\[day11-test] textrpg\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{002CC5DC-8B2D-434C-B1E3-71A359683234}|[day11-test] TextRPG\\[day11-test] TextRPG.csproj|solutionrelative:[day11-test] textrpg\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,28 +34,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Field.cs",
-              "DocumentMoniker": "D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\[day11-test] TextRPG\\[day11-test] TextRPG\\Field.cs",
+              "DocumentMoniker": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\[day11-test] TextRPG\\[day11-test] TextRPG\\Field.cs",
               "RelativeDocumentMoniker": "[day11-test] TextRPG\\Field.cs",
-              "ToolTip": "D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\[day11-test] TextRPG\\[day11-test] TextRPG\\Field.cs",
+              "ToolTip": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\[day11-test] TextRPG\\[day11-test] TextRPG\\Field.cs",
               "RelativeToolTip": "[day11-test] TextRPG\\Field.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-07T05:25:30.013Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "MainGame.cs",
-              "DocumentMoniker": "D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\[day11-test] TextRPG\\[day11-test] TextRPG\\MainGame.cs",
+              "DocumentMoniker": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\[day11-test] TextRPG\\[day11-test] TextRPG\\MainGame.cs",
               "RelativeDocumentMoniker": "[day11-test] TextRPG\\MainGame.cs",
-              "ToolTip": "D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\[day11-test] TextRPG\\[day11-test] TextRPG\\MainGame.cs",
+              "ToolTip": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\[day11-test] TextRPG\\[day11-test] TextRPG\\MainGame.cs",
               "RelativeToolTip": "[day11-test] TextRPG\\MainGame.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -64,11 +64,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Enemy.cs",
-              "DocumentMoniker": "D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\[day11-test] TextRPG\\[day11-test] TextRPG\\Enemy.cs",
+              "DocumentMoniker": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\[day11-test] TextRPG\\[day11-test] TextRPG\\Enemy.cs",
               "RelativeDocumentMoniker": "[day11-test] TextRPG\\Enemy.cs",
-              "ToolTip": "D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\[day11-test] TextRPG\\[day11-test] TextRPG\\Enemy.cs",
+              "ToolTip": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\[day11-test] TextRPG\\[day11-test] TextRPG\\Enemy.cs",
               "RelativeToolTip": "[day11-test] TextRPG\\Enemy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -77,11 +77,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Player.cs",
-              "DocumentMoniker": "D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\[day11-test] TextRPG\\[day11-test] TextRPG\\Player.cs",
+              "DocumentMoniker": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\[day11-test] TextRPG\\[day11-test] TextRPG\\Player.cs",
               "RelativeDocumentMoniker": "[day11-test] TextRPG\\Player.cs",
-              "ToolTip": "D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\[day11-test] TextRPG\\[day11-test] TextRPG\\Player.cs",
+              "ToolTip": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\[day11-test] TextRPG\\[day11-test] TextRPG\\Player.cs",
               "RelativeToolTip": "[day11-test] TextRPG\\Player.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAQwBYAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -90,11 +90,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "INFO.cs",
-              "DocumentMoniker": "D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\[day11-test] TextRPG\\[day11-test] TextRPG\\INFO.cs",
+              "DocumentMoniker": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\[day11-test] TextRPG\\[day11-test] TextRPG\\INFO.cs",
               "RelativeDocumentMoniker": "[day11-test] TextRPG\\INFO.cs",
-              "ToolTip": "D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\[day11-test] TextRPG\\[day11-test] TextRPG\\INFO.cs",
+              "ToolTip": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\[day11-test] TextRPG\\[day11-test] TextRPG\\INFO.cs",
               "RelativeToolTip": "[day11-test] TextRPG\\INFO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -103,11 +103,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\[day11-test] TextRPG\\[day11-test] TextRPG\\Program.cs",
+              "DocumentMoniker": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\[day11-test] TextRPG\\[day11-test] TextRPG\\Program.cs",
               "RelativeDocumentMoniker": "[day11-test] TextRPG\\Program.cs",
-              "ToolTip": "D:\\Game Dev\\LikeLion Unity Bootcamp\\csharp-study\\[day11-test] TextRPG\\[day11-test] TextRPG\\Program.cs",
+              "ToolTip": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\[day11-test] TextRPG\\[day11-test] TextRPG\\Program.cs",
               "RelativeToolTip": "[day11-test] TextRPG\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
