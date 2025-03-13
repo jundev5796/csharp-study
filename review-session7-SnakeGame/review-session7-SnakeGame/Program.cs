@@ -10,6 +10,8 @@ namespace review_session7_SnakeGame
     {
         static void Main(string[] args)
         {
+            GameManager game = new GameManager();
+            game.Run();
         }
     }
 }

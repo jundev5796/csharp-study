@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\review-session7-SnakeGame\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{262E4AF9-50FA-46D0-BF7C-BFE2F71EAB53}|review-session7-SnakeGame\\review-session7-SnakeGame.csproj|d:\\game dev\\likelion unity bootcamp\\learning\\csharp-study\\review-session7-snakegame\\review-session7-snakegame\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{262E4AF9-50FA-46D0-BF7C-BFE2F71EAB53}|review-session7-SnakeGame\\review-session7-SnakeGame.csproj|solutionrelative:review-session7-snakegame\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{262E4AF9-50FA-46D0-BF7C-BFE2F71EAB53}|review-session7-SnakeGame\\review-session7-SnakeGame.csproj|d:\\game dev\\likelion unity bootcamp\\learning\\csharp-study\\review-session7-snakegame\\review-session7-snakegame\\snake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{262E4AF9-50FA-46D0-BF7C-BFE2F71EAB53}|review-session7-SnakeGame\\review-session7-SnakeGame.csproj|solutionrelative:review-session7-snakegame\\snake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{262E4AF9-50FA-46D0-BF7C-BFE2F71EAB53}|review-session7-SnakeGame\\review-session7-SnakeGame.csproj|d:\\game dev\\likelion unity bootcamp\\learning\\csharp-study\\review-session7-snakegame\\review-session7-snakegame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{262E4AF9-50FA-46D0-BF7C-BFE2F71EAB53}|review-session7-SnakeGame\\review-session7-SnakeGame.csproj|D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\review-session7-SnakeGame\\review-session7-snakegame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{262E4AF9-50FA-46D0-BF7C-BFE2F71EAB53}|review-session7-SnakeGame\\review-session7-SnakeGame.csproj|solutionrelative:review-session7-snakegame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -23,25 +27,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\review-session7-SnakeGame\\review-session7-SnakeGame\\GameManager.cs",
+              "RelativeDocumentMoniker": "review-session7-SnakeGame\\GameManager.cs",
+              "ToolTip": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\review-session7-SnakeGame\\review-session7-SnakeGame\\GameManager.cs",
+              "RelativeToolTip": "review-session7-SnakeGame\\GameManager.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAA1wCsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T10:33:49.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Snake.cs",
               "DocumentMoniker": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\review-session7-SnakeGame\\review-session7-SnakeGame\\Snake.cs",
               "RelativeDocumentMoniker": "review-session7-SnakeGame\\Snake.cs",
               "ToolTip": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\review-session7-SnakeGame\\review-session7-SnakeGame\\Snake.cs",
               "RelativeToolTip": "review-session7-SnakeGame\\Snake.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAABMAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwFYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-13T09:32:51.012Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\review-session7-SnakeGame\\review-session7-SnakeGame\\Program.cs",
               "RelativeDocumentMoniker": "review-session7-SnakeGame\\Program.cs",
               "ToolTip": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\review-session7-SnakeGame\\review-session7-SnakeGame\\Program.cs",
               "RelativeToolTip": "review-session7-SnakeGame\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-13T09:32:36.074Z",
               "EditorCaption": ""

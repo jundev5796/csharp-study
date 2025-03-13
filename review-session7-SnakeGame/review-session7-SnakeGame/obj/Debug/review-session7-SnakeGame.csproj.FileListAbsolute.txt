@@ -1,0 +1,7 @@
+D:\Game Dev\LikeLion Unity Bootcamp\Learning\csharp-study\review-session7-SnakeGame\review-session7-SnakeGame\bin\Debug\review-session7-SnakeGame.exe.config
+D:\Game Dev\LikeLion Unity Bootcamp\Learning\csharp-study\review-session7-SnakeGame\review-session7-SnakeGame\bin\Debug\review-session7-SnakeGame.exe
+D:\Game Dev\LikeLion Unity Bootcamp\Learning\csharp-study\review-session7-SnakeGame\review-session7-SnakeGame\bin\Debug\review-session7-SnakeGame.pdb
+D:\Game Dev\LikeLion Unity Bootcamp\Learning\csharp-study\review-session7-SnakeGame\review-session7-SnakeGame\obj\Debug\review-session7-SnakeGame.csproj.AssemblyReference.cache
+D:\Game Dev\LikeLion Unity Bootcamp\Learning\csharp-study\review-session7-SnakeGame\review-session7-SnakeGame\obj\Debug\review-session7-SnakeGame.csproj.CoreCompileInputs.cache
+D:\Game Dev\LikeLion Unity Bootcamp\Learning\csharp-study\review-session7-SnakeGame\review-session7-SnakeGame\obj\Debug\review-session7-SnakeGame.exe
+D:\Game Dev\LikeLion Unity Bootcamp\Learning\csharp-study\review-session7-SnakeGame\review-session7-SnakeGame\obj\Debug\review-session7-SnakeGame.pdb
