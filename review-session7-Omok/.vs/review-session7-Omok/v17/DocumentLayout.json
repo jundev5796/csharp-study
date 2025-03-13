@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\review-session7-Omok\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{25BC6845-BDFF-4D0A-B51C-D66690D58C22}|review-session7-Omok\\review-session7-Omok.csproj|d:\\game dev\\likelion unity bootcamp\\learning\\csharp-study\\review-session7-omok\\review-session7-omok\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25BC6845-BDFF-4D0A-B51C-D66690D58C22}|review-session7-Omok\\review-session7-Omok.csproj|solutionrelative:review-session7-omok\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25BC6845-BDFF-4D0A-B51C-D66690D58C22}|review-session7-Omok\\review-session7-Omok.csproj|d:\\game dev\\likelion unity bootcamp\\learning\\csharp-study\\review-session7-omok\\review-session7-omok\\aiplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25BC6845-BDFF-4D0A-B51C-D66690D58C22}|review-session7-Omok\\review-session7-Omok.csproj|solutionrelative:review-session7-omok\\aiplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25BC6845-BDFF-4D0A-B51C-D66690D58C22}|review-session7-Omok\\review-session7-Omok.csproj|d:\\game dev\\likelion unity bootcamp\\learning\\csharp-study\\review-session7-omok\\review-session7-omok\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25BC6845-BDFF-4D0A-B51C-D66690D58C22}|review-session7-Omok\\review-session7-Omok.csproj|solutionrelative:review-session7-omok\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25BC6845-BDFF-4D0A-B51C-D66690D58C22}|review-session7-Omok\\review-session7-Omok.csproj|d:\\game dev\\likelion unity bootcamp\\learning\\csharp-study\\review-session7-omok\\review-session7-omok\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25BC6845-BDFF-4D0A-B51C-D66690D58C22}|review-session7-Omok\\review-session7-Omok.csproj|solutionrelative:review-session7-omok\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\review-session7-Omok\\review-session7-Omok\\GameManager.cs",
+              "RelativeDocumentMoniker": "review-session7-Omok\\GameManager.cs",
+              "ToolTip": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\review-session7-Omok\\review-session7-Omok\\GameManager.cs",
+              "RelativeToolTip": "review-session7-Omok\\GameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T11:32:18.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Board.cs",
+              "DocumentMoniker": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\review-session7-Omok\\review-session7-Omok\\Board.cs",
+              "RelativeDocumentMoniker": "review-session7-Omok\\Board.cs",
+              "ToolTip": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\review-session7-Omok\\review-session7-Omok\\Board.cs",
+              "RelativeToolTip": "review-session7-Omok\\Board.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T11:31:41.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AIPlayer.cs",
+              "DocumentMoniker": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\review-session7-Omok\\review-session7-Omok\\AIPlayer.cs",
+              "RelativeDocumentMoniker": "review-session7-Omok\\AIPlayer.cs",
+              "ToolTip": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\review-session7-Omok\\review-session7-Omok\\AIPlayer.cs",
+              "RelativeToolTip": "review-session7-Omok\\AIPlayer.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T11:31:06.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\review-session7-Omok\\review-session7-Omok\\Program.cs",
+              "RelativeDocumentMoniker": "review-session7-Omok\\Program.cs",
+              "ToolTip": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\review-session7-Omok\\review-session7-Omok\\Program.cs",
+              "RelativeToolTip": "review-session7-Omok\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T11:29:33.413Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

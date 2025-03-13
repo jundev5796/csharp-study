@@ -1,0 +1,7 @@
+D:\Game Dev\LikeLion Unity Bootcamp\Learning\csharp-study\review-session7-Omok\review-session7-Omok\bin\Debug\review-session7-Omok.exe.config
+D:\Game Dev\LikeLion Unity Bootcamp\Learning\csharp-study\review-session7-Omok\review-session7-Omok\bin\Debug\review-session7-Omok.exe
+D:\Game Dev\LikeLion Unity Bootcamp\Learning\csharp-study\review-session7-Omok\review-session7-Omok\bin\Debug\review-session7-Omok.pdb
+D:\Game Dev\LikeLion Unity Bootcamp\Learning\csharp-study\review-session7-Omok\review-session7-Omok\obj\Debug\review-session7-Omok.csproj.AssemblyReference.cache
+D:\Game Dev\LikeLion Unity Bootcamp\Learning\csharp-study\review-session7-Omok\review-session7-Omok\obj\Debug\review-session7-Omok.csproj.CoreCompileInputs.cache
+D:\Game Dev\LikeLion Unity Bootcamp\Learning\csharp-study\review-session7-Omok\review-session7-Omok\obj\Debug\review-session7-Omok.exe
+D:\Game Dev\LikeLion Unity Bootcamp\Learning\csharp-study\review-session7-Omok\review-session7-Omok\obj\Debug\review-session7-Omok.pdb
