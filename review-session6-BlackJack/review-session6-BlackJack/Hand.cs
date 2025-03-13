@@ -25,19 +25,17 @@ namespace review_session6_BlackJack
             int total = 0;
             int aceCount = 0;
 
-            foreach(var card in Cards)
+            foreach (var card in Cards)
             {
                 total += card.GetValue();
                 if (card.Rank == "A")
                     aceCount++;
             }
-
             while (total > 21 && aceCount > 0)
             {
                 total -= 10;
                 aceCount--;
             }
-
             return total;
         }
 

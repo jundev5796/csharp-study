@@ -11,18 +11,17 @@ namespace review_session6_BlackJack
         public string Shape { get; }
         public string Rank { get; }
 
-        public Card(string shape, string rank)
+        public Card(string rank, string shape)
         {
-            Shape = shape;
             Rank = rank;
+            Shape = shape;
         }
 
         public int GetValue()
         {
             if (Rank == "A")
                 return 11;
-
-            if (Rank == "K" || Rank == "Q")
+            if (Rank == "K" || Rank == "Q" || Rank == "J")
                 return 10;
 
             return int.Parse(Rank);

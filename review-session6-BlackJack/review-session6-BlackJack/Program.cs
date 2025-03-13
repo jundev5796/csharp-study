@@ -10,6 +10,20 @@ namespace review_session6_BlackJack
     {
         static void Main(string[] args)
         {
+            GameManager gameManager = new GameManager();
+            bool exit = false;
+
+            while (!exit)
+            {
+                gameManager.Play();
+
+                Console.WriteLine("게임을 반복하려면 아무키나 누르세요, 종료하려면'q'를 입력 해주세요");
+
+                if (Console.ReadLine() == "q")
+                {
+                    exit = true;
+                }
+            }
         }
     }
 }

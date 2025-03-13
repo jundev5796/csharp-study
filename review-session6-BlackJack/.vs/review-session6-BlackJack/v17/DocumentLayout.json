@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\review-session6-BlackJack\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9C63F2E7-40CB-432A-8B35-14269C66660A}|review-session6-BlackJack\\review-session6-BlackJack.csproj|d:\\game dev\\likelion unity bootcamp\\learning\\csharp-study\\review-session6-blackjack\\review-session6-blackjack\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C63F2E7-40CB-432A-8B35-14269C66660A}|review-session6-BlackJack\\review-session6-BlackJack.csproj|solutionrelative:review-session6-blackjack\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C63F2E7-40CB-432A-8B35-14269C66660A}|review-session6-BlackJack\\review-session6-BlackJack.csproj|D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\review-session6-BlackJack\\review-session6-blackjack\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C63F2E7-40CB-432A-8B35-14269C66660A}|review-session6-BlackJack\\review-session6-BlackJack.csproj|solutionrelative:review-session6-blackjack\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C63F2E7-40CB-432A-8B35-14269C66660A}|review-session6-BlackJack\\review-session6-BlackJack.csproj|d:\\game dev\\likelion unity bootcamp\\learning\\csharp-study\\review-session6-blackjack\\review-session6-blackjack\\hand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C63F2E7-40CB-432A-8B35-14269C66660A}|review-session6-BlackJack\\review-session6-BlackJack.csproj|solutionrelative:review-session6-blackjack\\hand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C63F2E7-40CB-432A-8B35-14269C66660A}|review-session6-BlackJack\\review-session6-BlackJack.csproj|d:\\game dev\\likelion unity bootcamp\\learning\\csharp-study\\review-session6-blackjack\\review-session6-blackjack\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9C63F2E7-40CB-432A-8B35-14269C66660A}|review-session6-BlackJack\\review-session6-BlackJack.csproj|D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\review-session6-BlackJack\\review-session6-blackjack\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C63F2E7-40CB-432A-8B35-14269C66660A}|review-session6-BlackJack\\review-session6-BlackJack.csproj|solutionrelative:review-session6-blackjack\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C63F2E7-40CB-432A-8B35-14269C66660A}|review-session6-BlackJack\\review-session6-BlackJack.csproj|d:\\game dev\\likelion unity bootcamp\\learning\\csharp-study\\review-session6-blackjack\\review-session6-blackjack\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C63F2E7-40CB-432A-8B35-14269C66660A}|review-session6-BlackJack\\review-session6-BlackJack.csproj|solutionrelative:review-session6-blackjack\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C63F2E7-40CB-432A-8B35-14269C66660A}|review-session6-BlackJack\\review-session6-BlackJack.csproj|d:\\game dev\\likelion unity bootcamp\\learning\\csharp-study\\review-session6-blackjack\\review-session6-blackjack\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C63F2E7-40CB-432A-8B35-14269C66660A}|review-session6-BlackJack\\review-session6-BlackJack.csproj|solutionrelative:review-session6-blackjack\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C63F2E7-40CB-432A-8B35-14269C66660A}|review-session6-BlackJack\\review-session6-BlackJack.csproj|D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\review-session6-BlackJack\\review-session6-blackjack\\hand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C63F2E7-40CB-432A-8B35-14269C66660A}|review-session6-BlackJack\\review-session6-BlackJack.csproj|solutionrelative:review-session6-blackjack\\hand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C63F2E7-40CB-432A-8B35-14269C66660A}|review-session6-BlackJack\\review-session6-BlackJack.csproj|d:\\game dev\\likelion unity bootcamp\\learning\\csharp-study\\review-session6-blackjack\\review-session6-blackjack\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C63F2E7-40CB-432A-8B35-14269C66660A}|review-session6-BlackJack\\review-session6-BlackJack.csproj|solutionrelative:review-session6-blackjack\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +30,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\review-session6-BlackJack\\review-session6-BlackJack\\GameManager.cs",
+              "RelativeDocumentMoniker": "review-session6-BlackJack\\GameManager.cs",
+              "ToolTip": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\review-session6-BlackJack\\review-session6-BlackJack\\GameManager.cs",
+              "RelativeToolTip": "review-session6-BlackJack\\GameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T10:10:40.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Deck.cs",
               "DocumentMoniker": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\review-session6-BlackJack\\review-session6-BlackJack\\Deck.cs",
               "RelativeDocumentMoniker": "review-session6-BlackJack\\Deck.cs",
               "ToolTip": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\review-session6-BlackJack\\review-session6-BlackJack\\Deck.cs",
               "RelativeToolTip": "review-session6-BlackJack\\Deck.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T10:47:21.298Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Hand.cs",
               "DocumentMoniker": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\review-session6-BlackJack\\review-session6-BlackJack\\Hand.cs",
               "RelativeDocumentMoniker": "review-session6-BlackJack\\Hand.cs",
               "ToolTip": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\review-session6-BlackJack\\review-session6-BlackJack\\Hand.cs",
               "RelativeToolTip": "review-session6-BlackJack\\Hand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T10:41:17.435Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Card.cs",
               "DocumentMoniker": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\review-session6-BlackJack\\review-session6-BlackJack\\Card.cs",
               "RelativeDocumentMoniker": "review-session6-BlackJack\\Card.cs",
               "ToolTip": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\review-session6-BlackJack\\review-session6-BlackJack\\Card.cs",
               "RelativeToolTip": "review-session6-BlackJack\\Card.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T10:36:27.682Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\review-session6-BlackJack\\review-session6-BlackJack\\Program.cs",
               "RelativeDocumentMoniker": "review-session6-BlackJack\\Program.cs",
               "ToolTip": "D:\\Game Dev\\LikeLion Unity Bootcamp\\Learning\\csharp-study\\review-session6-BlackJack\\review-session6-BlackJack\\Program.cs",
               "RelativeToolTip": "review-session6-BlackJack\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T10:34:20.699Z",
               "EditorCaption": ""

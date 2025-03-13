@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9C63F2E7-40CB-432A-8B35-14269C66660A}</ProjectGuid>
+    <ProjectGuid>{262E4AF9-50FA-46D0-BF7C-BFE2F71EAB53}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>review_session6_BlackJack</RootNamespace>
-    <AssemblyName>review-session6-BlackJack</AssemblyName>
+    <RootNamespace>review_session7_SnakeGame</RootNamespace>
+    <AssemblyName>review-session7-SnakeGame</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,12 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Card.cs" />
-    <Compile Include="Deck.cs" />
-    <Compile Include="GameManager.cs" />
-    <Compile Include="Hand.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Snake.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
